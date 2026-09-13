@@ -1,0 +1,542 @@
+[
+  {
+    "id": "hausarzt",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A female family doctor listening to an adult patient's chest with a stethoscope in a modern German practice. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/hausarzt.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "pflege",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female nurse carefully measuring an older patient's blood pressure at a hospital bedside. Main worker: woman, short grey hair, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/pflege.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "physio",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A female physiotherapist guiding an adult through a shoulder exercise in a therapy room. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/physio.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "hebamme",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A midwife advising expectant parents and demonstrating how to hold a baby with a training doll in a bright consultation room. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/hebamme.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "apotheke",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female pharmacist explaining a medicine package to a customer at a modern pharmacy counter. Main worker: woman, straight dark hair, East Asian German, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/apotheke.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "tierarzt",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A female veterinarian gently examining a dog's ear on a veterinary examination table. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/tierarzt.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "lehrkraft",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female primary school teacher helping pupils solve a simple task at a classroom table. Main worker: woman, curly auburn hair and freckles, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/lehrkraft.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "erzieher",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A female kindergarten educator building wooden block structures with small children at a low table. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/erzieher.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "sozialarbeit",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female social worker talking supportively with a teenager and parent at a welcoming community centre. Main worker: woman, Black German, natural short curly hair, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/sozialarbeit.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "psychotherapie",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A female psychotherapist attentively listening to an adult in a calm consultation room with two comfortable chairs. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/psychotherapie.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "logopaedie",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female speech therapist demonstrating mouth movements with a handheld mirror to a schoolchild at a therapy table. Main worker: woman, light brown hair and glasses, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/logopaedie.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "heilerziehung",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A female disability support worker and an adult wheelchair user collaboratively preparing a simple meal at an accessible kitchen counter. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/heilerziehung.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "tischler",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male carpenter using a hand plane on a securely clamped wooden board at a tidy workshop bench. Main worker: man, dark hair, medium olive complexion, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/tischler.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "elektronik",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A male electrician checking a de-energized electrical distribution board with appropriate insulated testing tools. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/elektronik.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "shk",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic career illustration, landscape 3:2 at smallest resolution, target768x512. A male plumbing and heating technician in his fifties, grey short hair, fitting a white panel radiator to copper heating pipes on an interior wall of an ordinary German home under renovation. Recognizable common SHK work, correct wrench and pipe fittings, realistic hands, tools and worker clearly visible. Bright natural light. Medium wide framing fills card, whole head inside frame. No outdoor heat pump indoors, no logos, no slogans, no text.",
+    "path": "public/images/shk.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "maler",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A male painter using a roller to paint a light-coloured interior wall in work clothes. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/maler.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "maurer",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male bricklayer laying bricks with mortar and a trowel, gloves and safety helmet at a small construction site. Main worker: man, straight dark hair, East Asian German, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/maurer.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "dachdecker",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A male roofer arranging red roof tiles on a low roof with visible edge protection and appropriate secured safety equipment. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/dachdecker.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "kfz",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male automotive mechatronics technician diagnosing a car in a modern garage using a diagnostic tablet beside the open bonnet. Main worker: man, curly auburn hair and freckles, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/kfz.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "industriemechanik",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A male industrial mechanic measuring a stationary metal component with a caliper at a workshop bench, protective glasses. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/industriemechanik.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "mechatronik",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male mechatronics technician testing a switched-off robotic training assembly with a multimeter in an industrial workshop. Main worker: man, Black German, natural short curly hair, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/mechatronik.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "physiklabor",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic career illustration, landscape3:2 smallest resolution target768x512. A male physics lab technician in his thirties wearing a lab coat and protective glasses, measuring force and extension on a compact tabletop materials testing machine with two grips holding a small sample. He reads its digital display and records results on a laptop. Realistic modern German industrial physics laboratory, distinct measurement apparatus and hands clearly visible, whole head inside frame, natural light. No laser, no collage, no logos or slogans.",
+    "path": "public/images/physiklabor.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "maschinenbau",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male mechanical engineer examining a small machine prototype beside a computer showing its technical CAD model. Main worker: man, light brown hair and glasses, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/maschinenbau.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "lebensmittel",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A male food processing technician in clean protective clothing inspecting sealed food containers on a production conveyor. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/lebensmittel.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "landwirt",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male farmer examining ripe wheat beside a parked tractor in a German field. Main worker: man, dark hair, medium olive complexion, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/landwirt.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "garten",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A male landscape gardener planting shrubs using a spade and gloves in a garden under construction. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/garten.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "forst",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male forestry worker wearing forestry helmet and protective work clothing measuring a standing tree trunk with a diameter tape in a German forest. Main worker: man, short grey hair, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/forst.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "tierpflege",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female animal shelter keeper offering a dog a toy inside a clean outdoor shelter exercise area. Main worker: woman, straight dark hair, East Asian German, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/tierpflege.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "abwasser",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male wastewater treatment technician wearing hard hat and gloves taking a water sample with a long sampling pole behind a protective railing at a treatment plant. Main worker: man, curly auburn hair and freckles, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/abwasser.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "biolabor",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female biology lab technician in lab coat gloves and protective glasses pipetting a sample into a small tube at a clean laboratory bench. Main worker: woman, Black German, natural short curly hair, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/biolabor.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "koch",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male chef in a clean professional kitchen stirring vegetables in a pan on a stove. Main worker: man, light brown hair and glasses, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/koch.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "baecker",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A male baker shaping dough loaves on a floured workbench in a bright modern bakery, bread racks visible. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/baecker.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "konditor",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic natural editorial career image. A female confectioner piping cream decorations onto a cake on a rotating stand in a clean pastry kitchen. Everyday contemporary Germany. Landscape 3:2, smallest supported resolution, target 768x512. Medium-wide view, whole heads and working hands clearly visible inside frame, recognisable activity fills frame. Natural daylight, realistic tools and anatomy, diverse everyday people. No text, watermark or collage.",
+    "path": "public/images/konditor.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "hotel",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female hotel receptionist welcoming an adult traveller at a modern reception counter. Main worker: woman, dark hair, medium olive complexion, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/hotel.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "restaurant",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female restaurant server carefully placing plates of food on a guest's table in a friendly restaurant. Main worker: woman, short grey hair, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/restaurant.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "sport",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male fitness centre employee explaining safe use of an exercise bike to an adult customer. Main worker: man, straight dark hair, East Asian German, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/sport.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "einzelhandel",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female retail worker helping a customer select groceries next to neatly stocked supermarket shelves. Main worker: woman, curly auburn hair and freckles, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/einzelhandel.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "buero",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female office administrator coordinating appointments with a colleague at a desk with a calendar and computer. Main worker: woman, Black German, natural short curly hair, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/buero.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "optik",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female optician adjusting an adult customer's glasses at an optician shop counter with precision tools. Main worker: woman, light brown hair and glasses, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/optik.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "steuer",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female tax specialist reviewing financial paperwork with a client beside a calculator and laptop in a tidy office. Main worker: woman, dark hair, medium olive complexion, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/steuer.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "anwalt",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male lawyer explaining a document to an adult client across a desk in a welcoming legal office. Main worker: man, short grey hair, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/anwalt.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "journalismus",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male journalist holding a microphone and interviewing an adult outside a town hall. Main worker: man, straight dark hair, East Asian German, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/journalismus.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "software",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male software developer working at a laptop and large monitor showing an application interface and code in a modern office. Main worker: man, curly auburn hair and freckles, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/software.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "systemintegration",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male IT systems technician connecting a network cable to a rack-mounted switch in a bright server room. Main worker: man, Black German, natural short curly hair, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/systemintegration.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "mediengestaltung",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female graphic media designer comparing printed colour samples with a digital poster layout on a monitor. Main worker: woman, light brown hair and glasses, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/mediengestaltung.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "fotografie",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male photographer holding a camera and photographing an adult portrait subject with soft studio lighting. Main worker: man, dark hair, medium olive complexion, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/fotografie.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "produktdesign",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male technical product designer refining a detailed CAD drawing of a machine part on a monitor with the physical part on the desk. Main worker: man, short grey hair, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/produktdesign.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "architektur",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male architect showing a scale building model and floor plans to a client in a bright architecture studio. Main worker: man, straight dark hair, East Asian German, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/architektur.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "lok",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male train driver seated at the controls of a modern German passenger train cab, tracks visible ahead. Main worker: man, curly auburn hair and freckles, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/lok.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "bauingenieur",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male civil engineer in safety helmet and high visibility vest checking bridge construction drawings with a colleague at a secure observation area. Main worker: man, Black German, natural short curly hair, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/bauingenieur.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "lkw",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male truck driver in high visibility vest inspecting the tyres of a parked modern freight truck before departure. Main worker: man, light brown hair and glasses, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/lkw.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "lager",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male warehouse logistics worker scanning labelled boxes with a handheld barcode scanner beside organised storage shelves. Main worker: man, dark hair, medium olive complexion, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/lager.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "bibliothek",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female library assistant helping a young reader find books beside library shelves. Main worker: woman, short grey hair, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/bibliothek.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "veranstaltung",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male event technician operating a lighting control desk with a theatre stage visible in the background. Main worker: man, straight dark hair, East Asian German, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/veranstaltung.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "polizei",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male German police officer in a modern blue uniform talking helpfully with a member of the public on a pedestrian street. Main worker: man, curly auburn hair and freckles, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/polizei.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "feuerwehr",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male professional firefighter in full protective clothing and helmet holding a hose during a controlled outdoor training exercise with a colleague. Main worker: man, Black German, natural short curly hair, in their thirties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/feuerwehr.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "rettung",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A male paramedic checking a conscious seated adult patient's vital signs beside a German ambulance, calm non-graphic scene. Main worker: man, light brown hair and glasses, in their forties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/rettung.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "verwaltung",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female municipal administration employee helping a resident with a form at a bright public service counter. Main worker: woman, dark hair, medium olive complexion, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/verwaltung.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "friseur",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Create one photorealistic natural editorial image for a German children's career discovery app. Landscape 3:2, target 768x512 pixels only, economical resolution. A hairdresser cutting an adult customer's hair in a bright modern everyday salon in Germany; both faces, hands, scissors and hair clearly visible. Medium-wide framing, recognizable action fills frame, subjects comfortably inside edges, natural warm daylight, realistic anatomy. No text, labels, collage or watermark. Save as friseur.",
+    "path": "public/images/friseur.webp",
+    "width": 768,
+    "height": 512
+  },
+  {
+    "id": "reinigung",
+    "tool": "OpenAI Imagegen (built-in)",
+    "date": "2026-09-13",
+    "prompt": "Photorealistic editorial career illustration. A female professional building cleaner using a floor cleaning machine in an empty bright office corridor. Main worker: woman, short grey hair, in their fifties; a NEW distinct person, not the recurring characters from earlier images. Everyday modern Germany. Landscape 3:2 at smallest available resolution, target 768x512. Whole heads, hands and relevant tools inside frame, clear activity fills frame. Natural light, realistic anatomy. No captions or collage.",
+    "path": "public/images/reinigung.webp",
+    "width": 768,
+    "height": 512
+  }
+]

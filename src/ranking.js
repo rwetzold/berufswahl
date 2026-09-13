@@ -1,26 +1,26 @@
-export function createRankingSession(songs) {
-  if (!Array.isArray(songs) || songs.length === 0) {
+export function createRankingSession(careers) {
+  if (!Array.isArray(careers) || careers.length === 0) {
     return completeSession([]);
   }
 
-  if (songs.length === 1) {
-    return completeSession([songs[0]]);
+  if (careers.length === 1) {
+    return completeSession([careers[0]]);
   }
 
   const session = {
-    songs,
+    careers,
     ranked: [],
     candidateIndex: 2,
     insertion: null,
     comparisons: 0,
     isComplete: false,
-    currentPair: [songs[0], songs[1]],
+    currentPair: [careers[0], careers[1]],
   };
 
   return session;
 }
 
-export function choosePreferred(session, preferredSongId) {
+export function choosePreferred(session, preferredCareerId) {
   if (session.isComplete || !session.currentPair) {
     return session;
   }
@@ -31,9 +31,9 @@ export function choosePreferred(session, preferredSongId) {
   next.comparisons += 1;
 
   if (next.ranked.length === 0) {
-    if (preferredSongId === candidate.id) {
+    if (preferredCareerId === candidate.id) {
       next.ranked = [candidate, compared];
-    } else if (preferredSongId === compared.id) {
+    } else if (preferredCareerId === compared.id) {
       next.ranked = [compared, candidate];
     } else {
       return session;
@@ -42,9 +42,9 @@ export function choosePreferred(session, preferredSongId) {
     return prepareNextPair(next);
   }
 
-  if (preferredSongId === candidate.id) {
+  if (preferredCareerId === candidate.id) {
     next.insertion.high = next.insertion.mid;
-  } else if (preferredSongId === compared.id) {
+  } else if (preferredCareerId === compared.id) {
     next.insertion.low = next.insertion.mid + 1;
   } else {
     return session;
@@ -68,7 +68,7 @@ export function repairSessionWithoutHistory(session) {
     !session ||
     session.isComplete ||
     !session.currentPair ||
-    !Array.isArray(session.songs) ||
+    !Array.isArray(session.careers) ||
     !Array.isArray(session.ranked) ||
     session.ranked.length === 0
   ) {
@@ -76,7 +76,7 @@ export function repairSessionWithoutHistory(session) {
   }
 
   if (session.candidateIndex === 2 && isFreshInsertion(session)) {
-    return createRankingSession(session.songs);
+    return createRankingSession(session.careers);
   }
 
   if (session.candidateIndex > 2 && isFreshInsertion(session)) {
@@ -87,7 +87,7 @@ export function repairSessionWithoutHistory(session) {
 }
 
 function prepareNextPair(session) {
-  if (session.candidateIndex >= session.songs.length) {
+  if (session.candidateIndex >= session.careers.length) {
     return completeSession(session.ranked, session.comparisons);
   }
 
@@ -100,11 +100,13 @@ function prepareNextPair(session) {
       mid: Math.floor(next.ranked.length / 2),
     };
   } else {
-    next.insertion.mid = Math.floor((next.insertion.low + next.insertion.high) / 2);
+    next.insertion.mid = Math.floor(
+      (next.insertion.low + next.insertion.high) / 2,
+    );
   }
 
   next.currentPair = [
-    next.songs[next.candidateIndex],
+    next.careers[next.candidateIndex],
     next.ranked[next.insertion.mid],
   ];
   next.isComplete = false;
@@ -113,30 +115,42 @@ function prepareNextPair(session) {
 }
 
 function restartCurrentCandidate(session) {
-  const candidate = session.songs[session.candidateIndex];
+  const candidate = session.careers[session.candidateIndex];
 
   if (!candidate) {
     return null;
   }
 
-  return startInsertion(session, candidate, session.candidateIndex, session.ranked);
+  return startInsertion(
+    session,
+    candidate,
+    session.candidateIndex,
+    session.ranked,
+  );
 }
 
 function restartPreviousCandidate(session) {
   const previousCandidateIndex = session.candidateIndex - 1;
-  const previousCandidate = session.songs[previousCandidateIndex];
+  const previousCandidate = session.careers[previousCandidateIndex];
 
   if (!previousCandidate) {
     return null;
   }
 
-  const ranked = session.ranked.filter((song) => song.id !== previousCandidate.id);
+  const ranked = session.ranked.filter(
+    (career) => career.id !== previousCandidate.id,
+  );
 
   if (ranked.length === session.ranked.length) {
     return null;
   }
 
-  return startInsertion(session, previousCandidate, previousCandidateIndex, ranked);
+  return startInsertion(
+    session,
+    previousCandidate,
+    previousCandidateIndex,
+    ranked,
+  );
 }
 
 function startInsertion(session, candidate, candidateIndex, ranked) {
@@ -170,7 +184,7 @@ function isFreshInsertion(session) {
 
 function completeSession(ranked, comparisons = 0) {
   return {
-    songs: ranked,
+    careers: ranked,
     ranked,
     candidateIndex: ranked.length,
     insertion: null,

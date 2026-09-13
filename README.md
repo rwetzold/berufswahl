@@ -1,50 +1,74 @@
-# Berufswahl
+# Berufe entdecken
 
-Grundlage für eine Anwendung zur Berufswahl von Schülern: Durch paarweise Präferenzentscheidungen entsteht schrittweise eine persönliche Rangliste.
+60 echte Berufe in Deutschland kennenlernen und paarweise vergleichen: **Welchen Beruf würdest du lieber einmal ausprobieren?** Die eigenen Entscheidungen erzeugen eine persönliche Rangfolge. Die Liste zeigt aktuelle Interessen, keine gemessene berufliche Eignung. Kennzahlen beeinflussen die Sortierung nicht.
 
-## Stand der Vorbereitung
+[App öffnen](https://rwetzold.github.io/berufswahl/)
 
-Dieses eigenständige Repository wurde aus [Eurovision Playlist](https://github.com/rwetzold/eurovision-playlist) übernommen und behält dessen Git-Historie. **Die Oberfläche und Eurovision-Songdaten sind vorläufige Beispielinhalte.** Berufskategorien, Texte und die Gestaltung für Schüler werden im nächsten Schritt gemeinsam festgelegt; die Anwendung bietet derzeit noch keine Berufswahlinhalte.
-
-Der vorhandene Vergleichsmechanismus einschließlich Rückgängig-Funktion, Neustart und lokal gespeicherten Ranglisten bleibt funktionsfähig. Dieses Projekt verwendet eigene Browserspeicherschlüssel mit dem Präfix `berufswahl-ranking-`; Eurovision-Spielstände werden weder übernommen noch verändert.
+Für Kinder ab etwa zehn Jahren: Kurzbeschreibungen, typische Tätigkeiten, Arbeitsumfelder, Tagesabläufe, Ausbildungswege und ungefährliche Entdeckeraufgaben. Informationen bleiben auch in der vollständigen Rangliste erreichbar. Rückgängig, Neustart mit Bestätigung und lokales Speichern sind enthalten.
 
 ## Lokal starten
 
-Voraussetzungen: Node.js 24 und Git.
+Node.js 24:
 
 ```sh
-git clone https://github.com/rwetzold/berufswahl.git
-cd berufswahl
 npm ci
 npm run dev
-```
-
-Die im Terminal angezeigte lokale URL öffnen. Es werden keine API-Schlüssel, Umgebungsvariablen oder Backend-Dienste benötigt.
-
-```sh
 npm test
 npm run build
 npm run preview
 ```
 
-Der Produktionsbuild liegt in `dist/` und muss über HTTP ausgeliefert werden. `dist/` und `node_modules/` werden nicht eingecheckt.
+`dist/` enthält die statische Website. Keine API-Schlüssel oder Backend-Dienste für den Betrieb erforderlich. GitHub Actions prüft Tests und Build; nur erfolgreiche Builds von `main` werden auf GitHub Pages veröffentlicht. Pull Requests veröffentlichen nichts.
 
-## Automatische Prüfung und Hosting
+## Daten und feste Skalen
 
-GitHub Actions führt bei Pushes auf `main`, Pull Requests gegen `main` und manuellem Start die Installation, Tests und den Build aus. Eine automatische Veröffentlichung ist nicht eingerichtet. Hosting wird nach der Inhaltsbesprechung festgelegt.
+`src/careers.json` enthält 60 stabile IDs, redaktionelle Texte und Einschätzungen, recherchierte Messwerte, Quellen, Bezugsgruppen und Bildnachweise. Abrufdatum: 13. September 2026. Die Website lädt keine laufenden externen Berufsdaten nach.
 
-## Technische Grundlage
+| Anzeige | Bedeutung und feste Stufenobergrenzen |
+| --- | --- |
+| Menschen im Beruf | Vollzeitbeschäftigte der Berufsgruppe: 5.000 / 10.000 / 25.000 / 50.000 / 100.000 / 200.000 / 400.000 / 700.000 / 1 Mio.; darüber Stufe 10. |
+| Gehalt | Median des Bruttomonatsgehalts bei Vollzeit: 2.000 / 2.750 / 3.500 / 4.250 / 5.000 / 5.750 / 6.500 / 7.250 / 8.000 Euro; darüber Stufe 10. Brutto heißt vor Steuern und Abgaben. |
+| Ausbildungsdauer | Beispielhafter typischer Weg nach dem erforderlichen Schulabschluss einschließlich verpflichtender Praxis. Aufgerundete Jahre, maximal Stufe 10; alternative Wege im Text. |
+| Lernen für den Beruf | Redaktionelle Einschätzung zu Theorie, Stoffumfang und praktischer Komplexität. |
+| Körperliche Belastung | Redaktionelle Einschätzung zu Bewegung, Kraft, Haltung und Arbeitsumgebung. |
+| Geistige/emotionale Belastung | Redaktionelle Einschätzung zu Konzentration, Zeitdruck, Verantwortung und emotionalen Anforderungen. |
+| Zukunftssicherheit | Redaktionelle Einschätzung für 10–15 Jahre unter Berücksichtigung von Bedarf und KI-Veränderungen. Keine Garantie oder Prozentwahrscheinlichkeit. |
+| Aktuell gesucht | Gemeldete Stellen je 100 sozialversicherungspflichtig Beschäftigte einer Berufsgruppe: 0,5 / 1 / 2 / 3 / 4 / 5 / 6 / 8 / 10; darüber Stufe 10. Letzter verfügbarer IAB-Datenstand 2024. |
+| Männer/Frauen | Neutraler Prozentbalken aus verfügbaren Beschäftigtenzahlen; keine Bewertung. |
 
-Die Anwendung verwendet JavaScript, CSS, Vite und Vitest. `src/ranking.js` enthält den Vergleichsmechanismus, `src/undo.js` die Rückgängig-Funktion und `src/persistence.js` die lokale Speicherung. Oberfläche und Styling liegen in `src/main.js` und `src/styles.css`; die vorläufigen Songdaten stehen in `src/songs.js`. Verhaltenstests liegen in `tests/`.
+**Mehr bedeutet nicht automatisch besser.** Redaktionelle Anker: 1–2 sehr gering, 3–4 eher gering, 5–6 mittel, 7–8 hoch, 9–10 sehr hoch. Erläuterungen nennen berufsspezifische Gründe und Unsicherheit. Diese Einschätzungen sind keine wissenschaftlich validierten Eignungstests.
 
-## Medien und Datenschutz der Beispielanwendung
+### Quellen und Grenzen
 
-Die Anwendung hat kein Backend und keine Anwendungsanalyse. Entscheidungen werden nur im lokalen Browserspeicher gespeichert. Das Löschen der Browserdaten entfernt den Fortschritt. Die vorläufigen Eurovision-Inhalte laden Vorschaubilder von YouTube; beim Abspielen werden YouTube-Videos eingebettet. Dafür werden Verbindungen zu YouTube aufgebaut. Die Verfügbarkeit hängt unter anderem von Region und Einbettungsrechten ab.
+- [BERUFENET](https://web.arbeitsagentur.de/berufenet/): Berufsprofile; der konkrete Link steht beim Beruf.
+- [Entgeltatlas](https://web.arbeitsagentur.de/entgeltatlas/) und [Methodik](https://www.arbeitsagentur.de/hilfe-entgeltatlas): Datenjahr 2025. Zahlen betreffen sozialversicherungspflichtige Vollzeitbeschäftigte der zugeordneten Berufsgruppe, ohne Auszubildende. Teilzeitkräfte, Selbstständige und Beamte fehlen. Die Anzeige ist **keine Gesamtzahl aller Menschen im einzelnen Beruf**. Gerade bei Lehrkräften, Medizin und Beamtenberufen ist diese Einschränkung wesentlich. Werte an der statistischen Gehaltsgrenze werden als Untergrenze markiert.
+- [IAB Job-Futuromat](https://job-futuromat.iab.de/): Beschäftigte und durchschnittlich gemeldete offene Stellen 2024 nach Berufsgruppe. Die Nachfrageanzeige ist eine erklärte Näherung, kein amtlicher Engpassindikator und keine Live-Stellenbörse. Nicht alle Stellen werden gemeldet; Personalwechsel und Meldeverhalten beeinflussen den Wert. Der direkte Download der BA-Engpassanalyse war beim Erstellen nicht erreichbar und wurde nicht durch erfundene Werte ersetzt.
+- [IAB: KI-Szenarien](https://iab.de/publikationen/publikation/?id=15227157) und [Substituierbarkeit von Tätigkeiten](https://job-futuromat.iab.de/content/text/kb2024-05.pdf): Grundlage der vorsichtigen Zukunftseinordnung. Automatisierbare Tätigkeiten bedeuten nicht automatisch, dass ein Beruf verschwindet.
 
-Das übernommene Eurovision-Beispiel ist ein inoffizielles Fanprojekt ohne Verbindung zum Eurovision Song Contest oder zur EBU. Videos, Vorschaubilder, Songtitel, Künstlernamen und Marken gehören den jeweiligen Rechteinhabern. Die Quellcodelizenz gewährt keine Rechte an Drittmedien, auch nicht am übernommenen Screenshot in `docs/screenshot.png`.
+Fehlende oder unterdrückte Messwerte erscheinen als „Keine verlässliche Angabe“, ohne Nullwert oder Balken. Daten sind keine Vorhersage des persönlichen Einkommens. Erläuterungen funktionieren mit Tastatur, Maus und Tippen.
 
-## Urheber und Lizenz
+### Bilder
 
-Ursprünglich erstellt von **Robert Wetzold und Anton Wetzold**.
+Mit OpenAI Imagegen erzeugte, fotorealistische Beispielszenen, in der App als **KI-Bild** gekennzeichnet. Keine Dokumentation echter Arbeitsplätze oder Personen und keine Arbeits- oder Sicherheitsanleitungen. Querformat 3:2, 768 × 512 Pixel im kompakten WebP-Format.
 
-Der Quellcode steht unter der [MIT-Lizenz](LICENSE).
+Bilddateien: `public/images/`. Datum, Werkzeug und vollständige Prompts: `docs/image-prompts.json`. Der Generator lieferte größere Ausgangsdateien als angefragt; die Auslieferungsgröße wurde separat optimiert. Es wird keine Creative-Commons-Lizenz oder fremde Urheberschaft für generierte Bilder behauptet.
+
+## Pflege und Architektur
+
+- `src/ranking.js`, `src/undo.js`, `src/shuffle.js`: übernommener Vergleichsmechanismus mit berufsbezogenen Namen.
+- `src/persistence.js`: versionierter Speicherschlüssel `berufswahl-careers-v1`; alte Berufswahl-Beispieldaten und Eurovision-Einträge werden weder gelesen noch gelöscht.
+- `src/metrics.js`: feste Skalen und Erläuterungen.
+- `src/main.js`, `src/styles.css`: responsive Oberfläche.
+- `tests/`: Ranking, Rückgängig, Persistenz, Datenvollständigkeit und Skalengrenzen.
+
+Recherche-Skripte unter `scripts/` dienen der manuellen Datenpflege. Zuordnungen zu Berufsgruppen, Quellen und Ausbildungswege müssen redaktionell geprüft werden. Zwischenergebnisse liegen im ignorierten `output/`; geprüfte Laufzeitquelle bleibt `src/careers.json`. Bildoptimierung benötigt Python und Pillow; diese sind keine Abhängigkeiten der Website oder des Builds.
+
+## Datenschutz
+
+Keine Anmeldung, Analyse-Tracker oder öffentliches Backend. Entscheidungen bleiben im lokalen Browserspeicher. Das Löschen der Browserdaten entfernt den Fortschritt. GitHub Pages liefert Website und Bilder aus; externe Quellen werden erst beim Anklicken geöffnet.
+
+## Herkunft und Lizenz
+
+Eigenständiges Repository mit erhaltener Historie aus [Eurovision Playlist](https://github.com/rwetzold/eurovision-playlist). Eurovision-Inhalte, Jahresauswahl, YouTube-Einbettungen und Beispielmedien wurden entfernt. Keine schreibende Remote-Verbindung zum Ursprungsprojekt.
+
+Ursprünglich erstellt von **Robert Wetzold und Anton Wetzold**. Quellcode: [MIT-Lizenz](LICENSE). Quellenangaben und Bildprovenienz gelten unabhängig davon; die Quellcodelizenz behauptet keine Rechte an Quellen-Websites oder fremden Inhalten.

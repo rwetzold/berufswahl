@@ -1,0 +1,4368 @@
+[
+  {
+    "id": "hausarzt",
+    "title": "Hausarzt/-ärztin",
+    "category": "Gesundheit",
+    "description": "Du findest heraus, warum Menschen krank sind. Du behandelst sie und hilfst ihnen, gesund zu bleiben.",
+    "tasks": [
+      "Menschen untersuchen",
+      "Behandlungen erklären",
+      "Vorsorge planen"
+    ],
+    "environment": [
+      "Praxis",
+      "Menschen"
+    ],
+    "training": {
+      "years": 11.25,
+      "path": "Medizinstudium (6 Jahre und 3 Monate) plus 5 Jahre Weiterbildung in Allgemeinmedizin. Ärztliches Arbeiten beginnt nach dem Studium."
+    },
+    "scores": {
+      "learning": 10,
+      "physical": 3,
+      "mental": 9,
+      "future": 9
+    },
+    "challenge": "Du trägst Verantwortung für die Gesundheit und erlebst schwere Krankheiten.",
+    "joy": "Du begleitest Menschen oft über viele Jahre.",
+    "tryIt": "Male einen Körperumriss und beschrifte die Körperteile, die du kennst.",
+    "imageQuery": "general practitioner examining patient",
+    "futureReason": "Persönliche Untersuchungen bleiben wichtig; KI unterstützt Diagnostik und Dokumentation.",
+    "sourceTitle": "Facharzt/-ärztin - Allgemeinmedizin (Hausarzt/-ärztin)",
+    "dkz": 8652,
+    "kldb": "B 81404",
+    "group": "Ärzte/Ärztinnen (ohne Spezialisierung) - hoch komplexe Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/8652",
+      "group": "Ärzte/Ärztinnen (ohne Spezialisierung) - hoch komplexe Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 7450,
+    "salaryCapped": false,
+    "employed": 116071,
+    "gender": {
+      "men": 58092,
+      "women": 57979
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 1298,
+      "employees": 168839,
+      "perHundred": 0.7687797250635221,
+      "group": "Ärzte/Ärztinnen (ohne Spezialisierung)",
+      "source": "https://job-futuromat.iab.de/?job=8652"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/8652",
+    "image": {
+      "kind": "generated",
+      "path": "images/hausarzt.webp",
+      "title": "Beispielhafte Tätigkeit: Hausarzt/-ärztin",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Hausarzt/-ärztin",
+      "width": 768,
+      "height": 512,
+      "version": "3c95f46e70a7"
+    },
+    "day": [
+      "Du liest Befunde und bereitest die Sprechstunde vor.",
+      "Du untersuchst Menschen und besprichst Behandlungen.",
+      "Du dokumentierst Befunde und klärst Rückfragen zu Untersuchungen."
+    ],
+    "hours": "Meist Sprechstunden tagsüber; Hausbesuche und Bereitschaftsdienste sind möglich."
+  },
+  {
+    "id": "pflege",
+    "title": "Pflegefachkraft",
+    "category": "Gesundheit",
+    "description": "Du unterstützt kranke oder ältere Menschen im Alltag. Du beobachtest, wie es ihnen geht, und arbeitest mit dem Behandlungsteam zusammen.",
+    "tasks": [
+      "Bei Körperpflege helfen",
+      "Gesundheit beobachten",
+      "Pflege dokumentieren"
+    ],
+    "environment": [
+      "Klinik oder Pflegeheim",
+      "Schichtdienst"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige Pflegeausbildung mit Unterricht und praktischen Einsätzen."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 8,
+      "mental": 9,
+      "future": 9
+    },
+    "challenge": "Heben, Schichtdienst und schwere Krankheiten können belasten.",
+    "joy": "Du merkst unmittelbar, dass deine Hilfe ankommt.",
+    "tryIt": "Zeichne ein Zimmer, in dem jemand mit einem verletzten Bein gut zurechtkommt.",
+    "imageQuery": "nurse patient care",
+    "futureReason": "Pflege braucht menschliche Nähe und praktische Unterstützung; KI erleichtert eher Verwaltungsaufgaben.",
+    "sourceTitle": "Pflegefachmann/-frau (Ausbildung)",
+    "dkz": 132173,
+    "kldb": "B 81302",
+    "group": "Berufe in der Gesundheits- & Krankenpflege (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/132173",
+      "group": "Berufe in der Gesundheits- & Krankenpflege (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4587,
+    "salaryCapped": false,
+    "employed": 338502,
+    "gender": {
+      "men": 82679,
+      "women": 255823
+    },
+    "demand": null,
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/132173",
+    "image": {
+      "kind": "generated",
+      "path": "images/pflege.webp",
+      "title": "Beispielhafte Tätigkeit: Pflegefachkraft",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Pflegefachkraft",
+      "width": 768,
+      "height": 512,
+      "version": "e6c72f4de9d9"
+    },
+    "day": [
+      "Bei der Übergabe erfährst du, wie es den betreuten Menschen geht.",
+      "Du unterstützt bei der Pflege und beobachtest Veränderungen.",
+      "Du dokumentierst deine Beobachtungen und übergibst an das nächste Team."
+    ],
+    "hours": "In Kliniken und Heimen oft Früh-, Spät- und Nachtdienst, auch am Wochenende."
+  },
+  {
+    "id": "physio",
+    "title": "Physiotherapeut/in",
+    "category": "Gesundheit",
+    "description": "Du hilfst Menschen, sich besser zu bewegen. Gemeinsam übt ihr Bewegungen nach Verletzungen oder bei Beschwerden.",
+    "tasks": [
+      "Bewegung prüfen",
+      "Übungen anleiten",
+      "Fortschritte besprechen"
+    ],
+    "environment": [
+      "Praxis",
+      "Bewegung"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige schulische Ausbildung; auch Studienwege sind möglich."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 6,
+      "mental": 6,
+      "future": 8
+    },
+    "challenge": "Die Arbeit mit den Händen und individuelle Übungen fordern dich.",
+    "joy": "Du siehst, wie jemand wieder beweglicher wird.",
+    "tryIt": "Erfinde eine lockere Bewegungspause, ohne Schmerzen oder Dehnen mit Kraft.",
+    "imageQuery": "physiotherapy treatment",
+    "futureReason": "Individuelle Bewegungstherapie bleibt persönlich; digitale Angebote können Übungen ergänzen.",
+    "sourceTitle": "Physiotherapeut/in",
+    "dkz": 8747,
+    "kldb": "B 81713",
+    "group": "Berufe in der Physiotherapie - komplexe Spezialistentätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/8747",
+      "group": "Berufe in der Physiotherapie - komplexe Spezialistentätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3452,
+    "salaryCapped": false,
+    "employed": 62793,
+    "gender": {
+      "men": 23922,
+      "women": 38871
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 5648,
+      "employees": 150414,
+      "perHundred": 3.7549696171898894,
+      "group": "Spezialisten in der Physiotherapie",
+      "source": "https://job-futuromat.iab.de/?job=8747"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/8747",
+    "image": {
+      "kind": "generated",
+      "path": "images/physio.webp",
+      "title": "Beispielhafte Tätigkeit: Physiotherapeut/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Physiotherapeut/in",
+      "width": 768,
+      "height": 512,
+      "version": "acfb4814a815"
+    },
+    "day": [
+      "Du siehst dir den Behandlungsplan für den ersten Termin an.",
+      "Du prüfst Bewegungen und leitest passende Übungen an.",
+      "Du hältst Fortschritte fest und planst die nächste Behandlung."
+    ],
+    "hours": "Meist Termine tagsüber, in Praxen teilweise bis in den Abend."
+  },
+  {
+    "id": "hebamme",
+    "title": "Hebamme",
+    "category": "Gesundheit",
+    "description": "Du begleitest Menschen in der Schwangerschaft und bei der Geburt. Danach hilfst du Familien beim Start mit ihrem Baby.",
+    "tasks": [
+      "Schwangere beraten",
+      "Geburten begleiten",
+      "Familien unterstützen"
+    ],
+    "environment": [
+      "Klinik oder Hausbesuche",
+      "Bereitschaft"
+    ],
+    "training": {
+      "years": 3.5,
+      "path": "Duales Studium von 6 bis 8 Semestern; hier ein Beispiel mit 7 Semestern."
+    },
+    "scores": {
+      "learning": 8,
+      "physical": 6,
+      "mental": 10,
+      "future": 9
+    },
+    "challenge": "Geburten sind nicht planbar und können schnelle Entscheidungen verlangen.",
+    "joy": "Du begleitest Familien in einer besonderen Lebensphase.",
+    "tryIt": "Sammle drei Fragen, die frischgebackene Eltern haben könnten.",
+    "imageQuery": "midwife mother baby",
+    "futureReason": "Geburtshilfe braucht unmittelbare Betreuung; Technik unterstützt die Überwachung.",
+    "sourceTitle": "Hebamme",
+    "dkz": 8838,
+    "kldb": "B 81353",
+    "group": "Berufe in der Geburtshilfe & Entbindungspflege - komplexe Spezialistentätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/8838",
+      "group": "Berufe in der Geburtshilfe & Entbindungspflege - komplexe Spezialistentätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4846,
+    "salaryCapped": false,
+    "employed": 3481,
+    "gender": null,
+    "demand": {
+      "year": 2024,
+      "offers": 99,
+      "employees": 16738,
+      "perHundred": 0.5914685147568407,
+      "group": "Spezialisten in der Geburtshilfe und Entbindungspflege",
+      "source": "https://job-futuromat.iab.de/?job=8838"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/8838",
+    "image": {
+      "kind": "generated",
+      "path": "images/hebamme.webp",
+      "title": "Beispielhafte Tätigkeit: Hebamme",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Hebamme",
+      "width": 768,
+      "height": 512,
+      "version": "95fe102bc251"
+    },
+    "day": [
+      "Du besprichst mit einer Schwangeren, wie es ihr geht.",
+      "Du begleitest eine Geburt oder machst einen Wochenbettbesuch.",
+      "Du dokumentierst Beobachtungen und stimmst die weitere Betreuung ab."
+    ],
+    "hours": "In Kliniken Schichtdienst; freiberuflich häufig Rufbereitschaft, auch nachts."
+  },
+  {
+    "id": "apotheke",
+    "title": "Apotheker/in",
+    "category": "Gesundheit",
+    "description": "Du kennst dich mit Medikamenten aus. Du prüfst Rezepte und erklärst die richtige Anwendung.",
+    "tasks": [
+      "Rezepte prüfen",
+      "Menschen beraten",
+      "Arzneimittel herstellen"
+    ],
+    "environment": [
+      "Apotheke",
+      "Genauigkeit"
+    ],
+    "training": {
+      "years": 5,
+      "path": "Vierjähriges Pharmaziestudium, praktisches Jahr und staatliche Prüfungen."
+    },
+    "scores": {
+      "learning": 9,
+      "physical": 4,
+      "mental": 7,
+      "future": 8
+    },
+    "challenge": "Kleine Verwechslungen können Folgen haben; Genauigkeit ist wichtig.",
+    "joy": "Du hilfst Menschen, ihre Behandlung besser zu verstehen.",
+    "tryIt": "Entwirf ein Etikett für eine erfundene Handcreme; benutze keine echten Medikamente.",
+    "imageQuery": "pharmacist pharmacy working",
+    "futureReason": "Arzneimittelsicherheit und Beratung bleiben wichtig; Lagerung wird stärker automatisiert.",
+    "sourceTitle": "Apotheker/in",
+    "dkz": 58682,
+    "kldb": "B 81804",
+    "group": "Apotheker/innen, Pharmazeuten/Pharmazeutinnen - hoch komplexe Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/58682",
+      "group": "Apotheker/innen, Pharmazeuten/Pharmazeutinnen - hoch komplexe Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 5404,
+    "salaryCapped": false,
+    "employed": 20260,
+    "gender": {
+      "men": 5729,
+      "women": 14531
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 592,
+      "employees": 45722,
+      "perHundred": 1.2947815056209264,
+      "group": "Apotheker/innen, Pharmazeuten/Pharmazeutinnen",
+      "source": "https://job-futuromat.iab.de/?job=58682"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/58682",
+    "image": {
+      "kind": "generated",
+      "path": "images/apotheke.webp",
+      "title": "Beispielhafte Tätigkeit: Apotheker/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Apotheker/in",
+      "width": 768,
+      "height": 512,
+      "version": "e6858494aa33"
+    },
+    "day": [
+      "Du prüfst neue Lieferungen und bereitest den Beratungsbereich vor.",
+      "Du kontrollierst Rezepte und erklärst die Anwendung von Arzneimitteln.",
+      "Du prüfst Bestände und bereitest notwendige Bestellungen vor."
+    ],
+    "hours": "Zu Ladenöffnungszeiten, auch samstags; zusätzlich wechselnde Notdienste."
+  },
+  {
+    "id": "tierarzt",
+    "title": "Tierarzt/-ärztin",
+    "category": "Gesundheit",
+    "description": "Du untersuchst und behandelst Tiere. Du erklärst ihren Menschen, wie sie gut für sie sorgen können.",
+    "tasks": [
+      "Tiere untersuchen",
+      "Behandlungen durchführen",
+      "Tierhaltung erklären"
+    ],
+    "environment": [
+      "Praxis oder Hof",
+      "Tiere"
+    ],
+    "training": {
+      "years": 5.5,
+      "path": "Tiermedizinstudium von etwa 5 Jahren und 6 Monaten einschließlich Praxis."
+    },
+    "scores": {
+      "learning": 10,
+      "physical": 6,
+      "mental": 9,
+      "future": 8
+    },
+    "challenge": "Verängstigte Tiere, schwere Krankheiten und Notdienste können belasten.",
+    "joy": "Du verbindest Medizin mit Hilfe für Tiere.",
+    "tryIt": "Beobachte ein Tier aus sicherem Abstand und notiere sein Verhalten.",
+    "imageQuery": "veterinarian examining dog",
+    "futureReason": "Untersuchung und Umgang mit Tieren bleiben praktische Aufgaben; KI kann Befunde unterstützen.",
+    "sourceTitle": "Tierarzt/Tierärztin",
+    "dkz": 58781,
+    "kldb": "B 81504",
+    "group": "Tierärzte/-ärztinnen (ohne Spezialisierung) - hoch komplexe Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/58781",
+      "group": "Tierärzte/-ärztinnen (ohne Spezialisierung) - hoch komplexe Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 5205,
+    "salaryCapped": false,
+    "employed": 7921,
+    "gender": {
+      "men": 2031,
+      "women": 5890
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 201,
+      "employees": 14209,
+      "perHundred": 1.4145963825744248,
+      "group": "Tierärzte/-ärztinnen (ohne Spezialisierung)",
+      "source": "https://job-futuromat.iab.de/?job=58781"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/58781",
+    "image": {
+      "kind": "generated",
+      "path": "images/tierarzt.webp",
+      "title": "Beispielhafte Tätigkeit: Tierarzt/-ärztin",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Tierarzt/-ärztin",
+      "width": 768,
+      "height": 512,
+      "version": "8730936e36f2"
+    },
+    "day": [
+      "Du bereitest Untersuchungsraum und geplante Behandlungen vor.",
+      "Du untersuchst ein Tier und erklärst die nächsten Schritte.",
+      "Du dokumentierst Behandlungen und beantwortest Rückfragen."
+    ],
+    "hours": "Sprechstunden tagsüber; je nach Praxis Notdienste und Wochenenden."
+  },
+  {
+    "id": "lehrkraft",
+    "title": "Grundschullehrer/in",
+    "category": "Bildung und Soziales",
+    "description": "Du hilfst Kindern beim Lesen, Rechnen und Entdecken. Du bereitest Unterricht vor und begleitest eine ganze Klasse.",
+    "tasks": [
+      "Unterricht erklären",
+      "Aufgaben vorbereiten",
+      "Kinder fördern"
+    ],
+    "environment": [
+      "Schule",
+      "Kinder"
+    ],
+    "training": {
+      "years": 6.5,
+      "path": "Lehramtsstudium und Vorbereitungsdienst, je nach Bundesland unterschiedlich; Beispiel 5 plus 1,5 Jahre."
+    },
+    "scores": {
+      "learning": 8,
+      "physical": 4,
+      "mental": 8,
+      "future": 8
+    },
+    "challenge": "Viele Kinder brauchen gleichzeitig Aufmerksamkeit; Vorbereitung gehört dazu.",
+    "joy": "Du erlebst, wenn Kinder etwas zum ersten Mal verstehen.",
+    "tryIt": "Erkläre jemandem ein Rechenspiel und entwickle eine Übungsaufgabe.",
+    "imageQuery": "primary school teacher classroom",
+    "futureReason": "Beziehung und Klassenleitung bleiben menschlich; KI verändert Lernmaterialien. Bedarf hängt von Region und Kinderzahlen ab.",
+    "sourceTitle": "Lehrer/in - Grundschulen",
+    "dkz": 59476,
+    "kldb": "B 84114",
+    "group": "Lehrkräfte in der Primarstufe - hoch komplexe Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/59476",
+      "group": "Lehrkräfte in der Primarstufe - hoch komplexe Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 5190,
+    "salaryCapped": false,
+    "employed": 19414,
+    "gender": {
+      "men": 4362,
+      "women": 15052
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 314,
+      "employees": 52381,
+      "perHundred": 0.5994540004963632,
+      "group": "Lehrer in der Primarstufe",
+      "source": "https://job-futuromat.iab.de/?job=59476"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/59476",
+    "image": {
+      "kind": "generated",
+      "path": "images/lehrkraft.webp",
+      "title": "Beispielhafte Tätigkeit: Grundschullehrer/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Grundschullehrer/in",
+      "width": 768,
+      "height": 512,
+      "version": "d19ca6efbaee"
+    },
+    "day": [
+      "Du legst Aufgaben und Material für die Klasse bereit.",
+      "Du erklärst ein Thema und hilfst Kindern beim Üben.",
+      "Du schaust Arbeiten durch und bereitest den nächsten Unterricht vor."
+    ],
+    "hours": "Unterricht überwiegend tagsüber; Vorbereitung, Gespräche und Korrekturen kommen hinzu."
+  },
+  {
+    "id": "erzieher",
+    "title": "Erzieher/in",
+    "category": "Bildung und Soziales",
+    "description": "Du begleitest Kinder beim Spielen und Lernen. Du gestaltest ihren Alltag und sprichst mit ihren Familien.",
+    "tasks": [
+      "Spiele gestalten",
+      "Entwicklung beobachten",
+      "Eltern informieren"
+    ],
+    "environment": [
+      "Kita oder Betreuung",
+      "Bewegung"
+    ],
+    "training": {
+      "years": 4,
+      "path": "Landesrechtlich geregelter Weg, häufig 3 bis 6 Jahre einschließlich Vorbildung und Praxis; Beispiel 4 Jahre."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 6,
+      "mental": 8,
+      "future": 8
+    },
+    "challenge": "Lärm und viele gleichzeitige Bedürfnisse verlangen Geduld.",
+    "joy": "Du setzt kreative Ideen gemeinsam mit Kindern um.",
+    "tryIt": "Plane ein Gruppenspiel, bei dem niemand ausscheidet.",
+    "imageQuery": "kindergarten teacher children",
+    "futureReason": "Betreuung benötigt persönliche Präsenz; KI kann Planung unterstützen, aber keine Aufsicht übernehmen.",
+    "sourceTitle": "Erzieher/in",
+    "dkz": 9159,
+    "kldb": "B 83113",
+    "group": "Berufe in der Kinderbetreuung & -erziehung - komplexe Spezialistentätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/9159",
+      "group": "Berufe in der Kinderbetreuung & -erziehung - komplexe Spezialistentätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4314,
+    "salaryCapped": false,
+    "employed": 168056,
+    "gender": {
+      "men": 25771,
+      "women": 142285
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 11990,
+      "employees": 387603,
+      "perHundred": 3.0933713103355753,
+      "group": "Spezialisten in der Kinderbetreuung und -erziehung",
+      "source": "https://job-futuromat.iab.de/?job=9159"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/9159",
+    "image": {
+      "kind": "generated",
+      "path": "images/erzieher.webp",
+      "title": "Beispielhafte Tätigkeit: Erzieher/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Erzieher/in",
+      "width": 768,
+      "height": 512,
+      "version": "c9debf1e3b50"
+    },
+    "day": [
+      "Du begrüßt Kinder und sprichst kurz mit ihren Bezugspersonen.",
+      "Ihr spielt, esst und entdeckt gemeinsam; du begleitest Konflikte.",
+      "Du besprichst Beobachtungen im Team und bereitest Aktivitäten vor."
+    ],
+    "hours": "In Kitas oft wechselnde Dienste innerhalb der Öffnungszeiten; in Wohngruppen auch nachts."
+  },
+  {
+    "id": "sozialarbeit",
+    "title": "Sozialarbeiter/in",
+    "category": "Bildung und Soziales",
+    "description": "Du unterstützt Menschen, die Schwierigkeiten haben. Gemeinsam sucht ihr Wege zu Hilfe und einem besseren Alltag.",
+    "tasks": [
+      "Gespräche führen",
+      "Hilfen organisieren",
+      "Mit Einrichtungen zusammenarbeiten"
+    ],
+    "environment": [
+      "Beratungsstelle oder unterwegs",
+      "Menschen"
+    ],
+    "training": {
+      "years": 3.5,
+      "path": "Studium Soziale Arbeit, häufig 6 bis 7 Semester; Anerkennung und Praxis sind landesabhängig."
+    },
+    "scores": {
+      "learning": 8,
+      "physical": 3,
+      "mental": 9,
+      "future": 8
+    },
+    "challenge": "Probleme lassen sich oft nicht schnell lösen und können emotional beschäftigen.",
+    "joy": "Du hilfst Menschen, wieder selbst handeln zu können.",
+    "tryIt": "Zeichne eine Karte mit Orten, an denen Menschen Unterstützung bekommen.",
+    "imageQuery": "social worker counseling",
+    "futureReason": "Vertrauen und individuelle Unterstützung bleiben zentral; KI kann Dokumentation erleichtern.",
+    "sourceTitle": "Sozialarbeiter/in / Sozialpädagoge/-pädagogin",
+    "dkz": 58775,
+    "kldb": "B 83124",
+    "group": "Berufe in der Sozialarbeit & Sozialpädagogik - hoch komplexe Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/58775",
+      "group": "Berufe in der Sozialarbeit & Sozialpädagogik - hoch komplexe Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4997,
+    "salaryCapped": false,
+    "employed": 125934,
+    "gender": {
+      "men": 38810,
+      "women": 87124
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 6885,
+      "employees": 315934,
+      "perHundred": 2.1792526287135923,
+      "group": "Experten in der Sozialarbeit und Sozialpädagogik",
+      "source": "https://job-futuromat.iab.de/?job=58775"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/58775",
+    "image": {
+      "kind": "generated",
+      "path": "images/sozialarbeit.webp",
+      "title": "Beispielhafte Tätigkeit: Sozialarbeiter/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Sozialarbeiter/in",
+      "width": 768,
+      "height": 512,
+      "version": "f42680bb1781"
+    },
+    "day": [
+      "Du bereitest ein Beratungsgespräch anhand vorhandener Unterlagen vor.",
+      "Du besprichst mit einer Person, welche Unterstützung sie braucht.",
+      "Du organisierst Kontakte zu Hilfsangeboten und dokumentierst Vereinbarungen."
+    ],
+    "hours": "Je nach Einrichtung Bürozeiten, Außentermine oder Dienste am Abend und Wochenende."
+  },
+  {
+    "id": "psychotherapie",
+    "title": "Psychotherapeut/in",
+    "category": "Bildung und Soziales",
+    "description": "Du hilfst Menschen mit seelischen Erkrankungen. In Gesprächen und Übungen entwickelt ihr neue Wege im Umgang mit Problemen.",
+    "tasks": [
+      "Gespräche führen",
+      "Therapie planen",
+      "Entwicklung begleiten"
+    ],
+    "environment": [
+      "Praxis oder Klinik",
+      "Gespräche"
+    ],
+    "training": {
+      "years": 10,
+      "path": "Fünfjähriges Studium mit Approbation und in der Regel fünfjährige Weiterbildung für die fachpsychotherapeutische Versorgung."
+    },
+    "scores": {
+      "learning": 10,
+      "physical": 2,
+      "mental": 10,
+      "future": 8
+    },
+    "challenge": "Belastende Geschichten verlangen professionelle Grenzen.",
+    "joy": "Du begleitest Menschen zu mehr Lebensqualität.",
+    "tryIt": "Gestalte eine Karte mit Dingen, die dir guttun; analysiere keine anderen Menschen.",
+    "imageQuery": "psychotherapy counseling session",
+    "futureReason": "Therapeutische Beziehung bleibt wesentlich; digitale Angebote ergänzen, ihre langfristigen Effekte sind unsicher.",
+    "sourceTitle": "Psychotherapeut/in",
+    "dkz": 118890,
+    "kldb": "B 81634",
+    "group": "Berufe in der nicht ärztlichen Psychotherapie - hoch komplexe Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/118890",
+      "group": "Berufe in der nicht ärztlichen Psychotherapie - hoch komplexe Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4861,
+    "salaryCapped": false,
+    "employed": 3423,
+    "gender": {
+      "men": 808,
+      "women": 2615
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 297,
+      "employees": 14965,
+      "perHundred": 1.9846308052121617,
+      "group": "Experten in der nicht ärztlichen Psychotherapie",
+      "source": "https://job-futuromat.iab.de/?job=118890"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/118890",
+    "image": {
+      "kind": "generated",
+      "path": "images/psychotherapie.webp",
+      "title": "Beispielhafte Tätigkeit: Psychotherapeut/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Psychotherapeut/in",
+      "width": 768,
+      "height": 512,
+      "version": "00f9491ecc34"
+    },
+    "day": [
+      "Du bereitest die vereinbarten Therapietermine vor.",
+      "Du führst Gespräche und übst mit Menschen passende Bewältigungsstrategien.",
+      "Du dokumentierst den Verlauf und reflektierst die Behandlung."
+    ],
+    "hours": "Meist vereinbarte Termine tagsüber; in Praxen teilweise abends."
+  },
+  {
+    "id": "logopaedie",
+    "title": "Logopäde/Logopädin",
+    "category": "Bildung und Soziales",
+    "description": "Du hilfst Menschen beim Sprechen, mit ihrer Stimme oder beim Schlucken. Dafür entwickelst du passende Übungen.",
+    "tasks": [
+      "Sprache untersuchen",
+      "Übungen anleiten",
+      "Fortschritte besprechen"
+    ],
+    "environment": [
+      "Praxis oder Klinik",
+      "Sprache"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige schulische Ausbildung; auch Studienwege sind möglich."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 3,
+      "mental": 6,
+      "future": 8
+    },
+    "challenge": "Fortschritte brauchen Zeit und wiederholtes Üben.",
+    "joy": "Du hilfst Menschen, sich leichter auszudrücken.",
+    "tryIt": "Erfinde einen Zungenbrecher und sprich ihn langsam ohne Anstrengung.",
+    "imageQuery": "speech therapy therapist",
+    "futureReason": "Persönliche Diagnostik bleibt wichtig; Sprachsoftware kann Übungen unterstützen.",
+    "sourceTitle": "Logopäde/Logopädin",
+    "dkz": 8758,
+    "kldb": "B 81733",
+    "group": "Berufe in der Sprachtherapie - komplexe Spezialistentätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/8758",
+      "group": "Berufe in der Sprachtherapie - komplexe Spezialistentätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3576,
+    "salaryCapped": false,
+    "employed": 7327,
+    "gender": {
+      "men": 635,
+      "women": 6692
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 948,
+      "employees": 21915,
+      "perHundred": 4.32580424366872,
+      "group": "Spezialisten in der Sprachtherapie",
+      "source": "https://job-futuromat.iab.de/?job=8758"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/8758",
+    "image": {
+      "kind": "generated",
+      "path": "images/logopaedie.webp",
+      "title": "Beispielhafte Tätigkeit: Logopäde/Logopädin",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Logopäde/Logopädin",
+      "width": 768,
+      "height": 512,
+      "version": "8fa87876e696"
+    },
+    "day": [
+      "Du wählst Übungen für einen Behandlungstermin aus.",
+      "Du übst mit einer Person Sprache, Stimme oder andere betroffene Funktionen.",
+      "Du besprichst Übungen für zu Hause und hältst Fortschritte fest."
+    ],
+    "hours": "Meist geregelte Termine tagsüber, teils am frühen Abend."
+  },
+  {
+    "id": "heilerziehung",
+    "title": "Heilerziehungspfleger/in",
+    "category": "Bildung und Soziales",
+    "description": "Du unterstützt Menschen mit Behinderung im Alltag. Du hilfst ihnen, möglichst selbstbestimmt zu leben.",
+    "tasks": [
+      "Alltag begleiten",
+      "Freizeit gestalten",
+      "Unterstützung planen"
+    ],
+    "environment": [
+      "Wohneinrichtung oder ambulant",
+      "Menschen"
+    ],
+    "training": {
+      "years": 4,
+      "path": "Landesrechtlich geregelte Ausbildung mit Zugangsvoraussetzungen; Beispiel mit Vorbildung etwa 4 Jahre."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 6,
+      "mental": 8,
+      "future": 9
+    },
+    "challenge": "Unterschiedliche Bedürfnisse und teils Schichtdienst verlangen Aufmerksamkeit.",
+    "joy": "Du hilfst Menschen, eigene Wünsche umzusetzen.",
+    "tryIt": "Skizziere Verbesserungen für einen Weg, der mit Rollstuhl schwer nutzbar ist.",
+    "imageQuery": "disability support worker",
+    "futureReason": "Individuelle Assistenz bleibt wichtig; Technik kann Selbstständigkeit fördern.",
+    "sourceTitle": "Heilerziehungspfleger/in",
+    "dkz": 9127,
+    "kldb": "B 83133",
+    "group": "Berufe in Heilerziehungspflege & Sonderpädagogik - komplexe Spezialistentätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/9127",
+      "group": "Berufe in Heilerziehungspflege & Sonderpädagogik - komplexe Spezialistentätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4525,
+    "salaryCapped": false,
+    "employed": 37596,
+    "gender": {
+      "men": 18474,
+      "women": 19122
+    },
+    "demand": null,
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/9127",
+    "image": {
+      "kind": "generated",
+      "path": "images/heilerziehung.webp",
+      "title": "Beispielhafte Tätigkeit: Heilerziehungspfleger/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Heilerziehungspfleger/in",
+      "width": 768,
+      "height": 512,
+      "version": "ea4c27210637"
+    },
+    "day": [
+      "Du besprichst mit betreuten Menschen ihre Wünsche für den Tag.",
+      "Du unterstützt Alltag, Arbeit oder Freizeit nach individuellem Bedarf.",
+      "Du stimmst mit dem Team ab, welche Unterstützung weiterhin gebraucht wird."
+    ],
+    "hours": "In Wohneinrichtungen oft Schichtdienst und Wochenenden; ambulant nach Betreuungsterminen."
+  },
+  {
+    "id": "tischler",
+    "title": "Tischler/in",
+    "category": "Handwerk",
+    "description": "Du baust Möbel, Türen und andere Dinge aus Holz. Aus einer Zeichnung machst du etwas zum Benutzen.",
+    "tasks": [
+      "Holz ausmessen",
+      "Bauteile fertigen",
+      "Möbel montieren"
+    ],
+    "environment": [
+      "Werkstatt und Baustelle",
+      "Holz"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 7,
+      "mental": 5,
+      "future": 7
+    },
+    "challenge": "Staub, Lärm und schwere Teile erfordern Schutz.",
+    "joy": "Du kannst dein fertiges Werk anfassen.",
+    "tryIt": "Baue ein Möbelmodell aus Papier oder Karton.",
+    "imageQuery": "carpenter woodworking workshop",
+    "futureReason": "Einzelanfertigungen und Montage bleiben gefragt; Maschinen unterstützen Zuschnitt und Planung.",
+    "sourceTitle": "Tischler/in",
+    "dkz": 4458,
+    "kldb": "B 22342",
+    "group": "Berufe im Holz-, Möbel- & Innenausbau - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/4458",
+      "group": "Berufe im Holz-, Möbel- & Innenausbau - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3355,
+    "salaryCapped": false,
+    "employed": 101769,
+    "gender": {
+      "men": 97624,
+      "women": 4145
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 5772,
+      "employees": 132936,
+      "perHundred": 4.341938978154902,
+      "group": "Fachkräfte im Holz-, Möbel- und Innenausbau",
+      "source": "https://job-futuromat.iab.de/?job=4458"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/4458",
+    "image": {
+      "kind": "generated",
+      "path": "images/tischler.webp",
+      "title": "Beispielhafte Tätigkeit: Tischler/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Tischler/in",
+      "width": 768,
+      "height": 512,
+      "version": "1844e53c01ac"
+    },
+    "day": [
+      "Du prüfst die Zeichnung und misst das benötigte Holz aus.",
+      "Du fertigst Bauteile in der Werkstatt und passt sie zusammen.",
+      "Du kontrollierst Oberflächen und bereitest die Montage vor."
+    ],
+    "hours": "Meist tagsüber; Montagetermine können früher beginnen oder länger dauern."
+  },
+  {
+    "id": "elektronik",
+    "title": "Elektroniker/in für Energie- und Gebäudetechnik",
+    "category": "Handwerk",
+    "description": "Du sorgst dafür, dass Strom und Gebäudetechnik funktionieren. Du installierst und prüfst Anlagen in Häusern.",
+    "tasks": [
+      "Leitungen planen",
+      "Anlagen anschließen",
+      "Fehler suchen"
+    ],
+    "environment": [
+      "Baustelle",
+      "Technik"
+    ],
+    "training": {
+      "years": 3.5,
+      "path": "Duale Ausbildung von 3,5 Jahren."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 6,
+      "mental": 7,
+      "future": 9
+    },
+    "challenge": "Strom ist gefährlich; Sicherheitsregeln sind entscheidend.",
+    "joy": "Du machst Gebäude nutzbar und hilfst beim Energiesparen.",
+    "tryIt": "Zeichne sinnvolle Plätze für Lampen und Schalter; arbeite niemals an Steckdosen.",
+    "imageQuery": "electrician working wiring",
+    "futureReason": "Elektrifizierung schafft Aufgaben vor Ort; KI unterstützt Planung und Diagnose.",
+    "sourceTitle": "Elektroniker/in - Energie- und Gebäudetechnik",
+    "dkz": 15637,
+    "kldb": "B 26212",
+    "group": "Berufe in der Bauelektrik - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/15637",
+      "group": "Berufe in der Bauelektrik - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3935,
+    "salaryCapped": false,
+    "employed": 169830,
+    "gender": {
+      "men": 167349,
+      "women": 2481
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 11525,
+      "employees": 219455,
+      "perHundred": 5.251646123351029,
+      "group": "Fachkräfte in der Bauelektrik",
+      "source": "https://job-futuromat.iab.de/?job=15637"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/15637",
+    "image": {
+      "kind": "generated",
+      "path": "images/elektronik.webp",
+      "title": "Beispielhafte Tätigkeit: Elektroniker/in für Energie- und Gebäudetechnik",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Elektroniker/in für Energie- und Gebäudetechnik",
+      "width": 768,
+      "height": 512,
+      "version": "eaf9a6ed4e4a"
+    },
+    "day": [
+      "Du besprichst den Auftrag und sicherst den Arbeitsbereich.",
+      "Du installierst Leitungen und Geräte nach Plan.",
+      "Du misst und dokumentierst, ob die Anlage sicher funktioniert."
+    ],
+    "hours": "Meist tagsüber; bei Störungen können Bereitschaftsdienste anfallen."
+  },
+  {
+    "id": "shk",
+    "title": "Anlagenmechaniker/in für Sanitär-, Heizungs- und Klimatechnik",
+    "category": "Handwerk",
+    "description": "Du sorgst für Wasser, Wärme und gute Luft in Gebäuden. Du baust Anlagen ein und reparierst sie.",
+    "tasks": [
+      "Rohre montieren",
+      "Heizungen einstellen",
+      "Anlagen warten"
+    ],
+    "environment": [
+      "Baustelle und Hausbesuche",
+      "Technik"
+    ],
+    "training": {
+      "years": 3.5,
+      "path": "Duale Ausbildung von 3,5 Jahren."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 8,
+      "mental": 6,
+      "future": 9
+    },
+    "challenge": "Enge Räume und schwere Teile können anstrengend sein.",
+    "joy": "Du machst Häuser angenehmer und sparst Energie.",
+    "tryIt": "Zeichne den Weg des Wassers vom Wasserhahn bis zum Abfluss.",
+    "imageQuery": "plumber installing pipes",
+    "futureReason": "Heizungstausch und Wartung benötigen praktische Arbeit; digitale Systeme verändern Diagnose und Steuerung.",
+    "sourceTitle": "Anlagenmechaniker/in - Sanitär-, Heizungs- und Klimatechnik",
+    "dkz": 15164,
+    "kldb": "B 34212",
+    "group": "Berufe in der Sanitär-, Heizungs- & Klimatechnik - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/15164",
+      "group": "Berufe in der Sanitär-, Heizungs- & Klimatechnik - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3884,
+    "salaryCapped": false,
+    "employed": 134466,
+    "gender": {
+      "men": 133729,
+      "women": 737
+    },
+    "demand": null,
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/15164",
+    "image": {
+      "kind": "generated",
+      "path": "images/shk.webp",
+      "title": "Beispielhafte Tätigkeit: Anlagenmechaniker/in für Sanitär-, Heizungs- und Klimatechnik",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Anlagenmechaniker/in für Sanitär-, Heizungs- und Klimatechnik",
+      "width": 768,
+      "height": 512,
+      "version": "487d1cb830bf"
+    },
+    "day": [
+      "Du lädst Material und fährst zu einem Auftrag.",
+      "Du montierst Leitungen oder wartest eine Heizungsanlage.",
+      "Du prüfst die Funktion und erklärst die Bedienung."
+    ],
+    "hours": "Meist tagsüber; Kundendienst kann Bereitschaft und Notfälle umfassen."
+  },
+  {
+    "id": "maler",
+    "title": "Maler/in und Lackierer/in",
+    "category": "Handwerk",
+    "description": "Du gestaltest und schützt Wände und Oberflächen. Du bereitest sie vor und bringst Farbe auf.",
+    "tasks": [
+      "Flächen vorbereiten",
+      "Farben mischen",
+      "Wände beschichten"
+    ],
+    "environment": [
+      "Gebäude und Werkstatt",
+      "Gestaltung"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 5,
+      "physical": 7,
+      "mental": 4,
+      "future": 7
+    },
+    "challenge": "Langes Stehen und Arbeiten über Kopf verlangen Ausdauer.",
+    "joy": "Deine Arbeit verändert sichtbar einen Raum.",
+    "tryIt": "Entwirf drei Farbkombinationen für dein Traumzimmer.",
+    "imageQuery": "painter painting wall worker",
+    "futureReason": "Wechselnde Gebäude brauchen Handarbeit; digitale Werkzeuge unterstützen Farbplanung.",
+    "sourceTitle": "Maler/in und Lackierer/in - Gestaltung und Instandhaltung",
+    "dkz": 15531,
+    "kldb": "B 33212",
+    "group": "Berufe für Maler- & Lackiererarbeiten - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/15531",
+      "group": "Berufe für Maler- & Lackiererarbeiten - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3327,
+    "salaryCapped": false,
+    "employed": 78441,
+    "gender": {
+      "men": 74201,
+      "women": 4240
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 5013,
+      "employees": 99419,
+      "perHundred": 5.0422957382391695,
+      "group": "Fachkräfte für Maler- und Lackiererarbeiten",
+      "source": "https://job-futuromat.iab.de/?job=15531"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/15531",
+    "image": {
+      "kind": "generated",
+      "path": "images/maler.webp",
+      "title": "Beispielhafte Tätigkeit: Maler/in und Lackierer/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Maler/in und Lackierer/in",
+      "width": 768,
+      "height": 512,
+      "version": "e0f78f2124d7"
+    },
+    "day": [
+      "Du deckst Möbel ab und bereitest die Oberfläche vor.",
+      "Du mischst Farben und beschichtest Wände sorgfältig.",
+      "Du kontrollierst das Ergebnis und reinigst Werkzeuge."
+    ],
+    "hours": "Meist werktags tagsüber, abhängig von Baustelle und Auftrag."
+  },
+  {
+    "id": "maurer",
+    "title": "Maurer/in",
+    "category": "Handwerk",
+    "description": "Du baust Wände und andere Gebäudeteile. Du arbeitest nach Plänen und achtest auf genaue Maße.",
+    "tasks": [
+      "Baupläne lesen",
+      "Mauerwerk herstellen",
+      "Maße kontrollieren"
+    ],
+    "environment": [
+      "Baustelle",
+      "Draußen"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 9,
+      "mental": 6,
+      "future": 7
+    },
+    "challenge": "Wetter und schwere Materialien machen die Arbeit körperlich anspruchsvoll.",
+    "joy": "Du siehst, wie ein Gebäude entsteht.",
+    "tryIt": "Baue eine Spielsteinmauer mit versetzten Fugen.",
+    "imageQuery": "bricklayer laying bricks",
+    "futureReason": "Bauen bleibt nötig, schwankt aber wirtschaftlich; Vorfertigung verändert einzelne Aufgaben.",
+    "sourceTitle": "Maurer/in",
+    "dkz": 3935,
+    "kldb": "B 32122",
+    "group": "Berufe im Maurerhandwerk - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/3935",
+      "group": "Berufe im Maurerhandwerk - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3894,
+    "salaryCapped": false,
+    "employed": 61462,
+    "gender": null,
+    "demand": {
+      "year": 2024,
+      "offers": 2287,
+      "employees": 74681,
+      "perHundred": 3.0623585650968788,
+      "group": "Fachkräfte im Maurerhandwerk",
+      "source": "https://job-futuromat.iab.de/?job=3935"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/3935",
+    "image": {
+      "kind": "generated",
+      "path": "images/maurer.webp",
+      "title": "Beispielhafte Tätigkeit: Maurer/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Maurer/in",
+      "width": 768,
+      "height": 512,
+      "version": "e1f787fbcabc"
+    },
+    "day": [
+      "Du besprichst Bauplan, Material und Sicherheit im Team.",
+      "Du setzt Steine nach Maß und kontrollierst die Ausrichtung.",
+      "Du sicherst die Baustelle und bereitest Material für morgen vor."
+    ],
+    "hours": "Meist früh beginnende Tagesarbeit; Wetter und Bauablauf beeinflussen die Zeiten."
+  },
+  {
+    "id": "dachdecker",
+    "title": "Dachdecker/in",
+    "category": "Handwerk",
+    "description": "Du schützt Häuser vor Regen und Kälte. Du deckst Dächer und baust Dämmungen ein.",
+    "tasks": [
+      "Dächer decken",
+      "Abdichtungen anbringen",
+      "Dämmung einbauen"
+    ],
+    "environment": [
+      "Baustelle",
+      "Höhe"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 9,
+      "mental": 7,
+      "future": 8
+    },
+    "challenge": "Höhe und Wetter verlangen konsequenten Schutz.",
+    "joy": "Du sorgst für trockene und geschützte Häuser.",
+    "tryIt": "Falte ein Papierdach und zeichne den Weg des Regenwassers.",
+    "imageQuery": "roofer working roof",
+    "futureReason": "Sanierung braucht Handwerk vor Ort; Planung wird digital unterstützt.",
+    "sourceTitle": "Dachdecker/in",
+    "dkz": 129405,
+    "kldb": "B 32142",
+    "group": "Berufe in der Dachdeckerei - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/129405",
+      "group": "Berufe in der Dachdeckerei - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3783,
+    "salaryCapped": false,
+    "employed": 39395,
+    "gender": null,
+    "demand": {
+      "year": 2024,
+      "offers": 2521,
+      "employees": 49586,
+      "perHundred": 5.084096317508974,
+      "group": "Fachkräfte in der Dachdeckerei",
+      "source": "https://job-futuromat.iab.de/?job=129405"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/129405",
+    "image": {
+      "kind": "generated",
+      "path": "images/dachdecker.webp",
+      "title": "Beispielhafte Tätigkeit: Dachdecker/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Dachdecker/in",
+      "width": 768,
+      "height": 512,
+      "version": "ae41aa1dbfdd"
+    },
+    "day": [
+      "Du prüfst Wetter, Material und Absturzsicherung.",
+      "Du deckst Dachflächen oder bringst Dämmung und Abdichtung an.",
+      "Du prüfst Anschlüsse und sicherst die Arbeitsstelle."
+    ],
+    "hours": "Meist tagsüber; Wetter und dringende Reparaturen können den Ablauf ändern."
+  },
+  {
+    "id": "kfz",
+    "title": "Kfz-Mechatroniker/in",
+    "category": "Technik und Forschung",
+    "description": "Du findest Fehler an Autos und reparierst sie. Du arbeitest mit Werkzeugen und Computern.",
+    "tasks": [
+      "Fahrzeuge prüfen",
+      "Fehler auslesen",
+      "Bauteile ersetzen"
+    ],
+    "environment": [
+      "Werkstatt",
+      "Fahrzeuge"
+    ],
+    "training": {
+      "years": 3.5,
+      "path": "Duale Ausbildung von 3,5 Jahren mit verschiedenen Schwerpunkten."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 6,
+      "mental": 6,
+      "future": 7
+    },
+    "challenge": "Viele technische Systeme und sichere Arbeitsabläufe verlangen Wissen.",
+    "joy": "Du bringst etwas wieder zum Laufen.",
+    "tryIt": "Vergleiche Bilder eines Elektroautos und eines Verbrennerautos.",
+    "imageQuery": "car mechanic repairing car",
+    "futureReason": "Elektroautos verändern Wartung; Reparatur und Sicherheitsprüfung bleiben wichtig.",
+    "sourceTitle": "Kraftfahrzeugmechatroniker/in - Personenkraftwagentechnik",
+    "dkz": 14798,
+    "kldb": "B 25212",
+    "group": "Berufe in der Kraftfahrzeugtechnik - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/14798",
+      "group": "Berufe in der Kraftfahrzeugtechnik - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3755,
+    "salaryCapped": false,
+    "employed": 246723,
+    "gender": {
+      "men": 235381,
+      "women": 11342
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 11696,
+      "employees": 349541,
+      "perHundred": 3.3461024600833666,
+      "group": "Fachkräfte in der Kraftfahrzeugtechnik",
+      "source": "https://job-futuromat.iab.de/?job=14798"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/14798",
+    "image": {
+      "kind": "generated",
+      "path": "images/kfz.webp",
+      "title": "Beispielhafte Tätigkeit: Kfz-Mechatroniker/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Kfz-Mechatroniker/in",
+      "width": 768,
+      "height": 512,
+      "version": "372b3a0f46a8"
+    },
+    "day": [
+      "Du besprichst einen Reparaturauftrag und prüfst das Fahrzeug.",
+      "Du suchst den Fehler und ersetzt oder reparierst Bauteile.",
+      "Du kontrollierst die Funktion und dokumentierst die Arbeiten."
+    ],
+    "hours": "Meist Werkstattzeiten tagsüber, teilweise samstags."
+  },
+  {
+    "id": "industriemechanik",
+    "title": "Industriemechaniker/in",
+    "category": "Technik und Forschung",
+    "description": "Du baust und wartest Maschinen in Fabriken. Wenn etwas ausfällt, suchst du die Ursache.",
+    "tasks": [
+      "Maschinen montieren",
+      "Bauteile prüfen",
+      "Störungen beheben"
+    ],
+    "environment": [
+      "Fabrik oder Werkstatt",
+      "Maschinen"
+    ],
+    "training": {
+      "years": 3.5,
+      "path": "Duale Ausbildung von 3,5 Jahren."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 7,
+      "mental": 6,
+      "future": 8
+    },
+    "challenge": "Stillstände erzeugen Zeitdruck; Maschinen verlangen Sicherheitsregeln.",
+    "joy": "Du sorgst dafür, dass große Anlagen funktionieren.",
+    "tryIt": "Baue mit Spielzeug einen Hebel und erkläre seine Wirkung.",
+    "imageQuery": "industrial mechanic machinery maintenance",
+    "futureReason": "Automatisierte Fabriken brauchen Wartung; Sensoren verändern die Fehlersuche.",
+    "sourceTitle": "Industriemechaniker/in",
+    "dkz": 29056,
+    "kldb": "B 25102",
+    "group": "Berufe in der Maschinenbau- & Betriebstechnik (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/29056",
+      "group": "Berufe in der Maschinenbau- & Betriebstechnik (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4573,
+    "salaryCapped": false,
+    "employed": 230588,
+    "gender": {
+      "men": 222615,
+      "women": 7973
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 12172,
+      "employees": 288470,
+      "perHundred": 4.219502894581759,
+      "group": "Fachkräfte in der Maschinenbau- und Betriebstechnik (ohne Spezialisierung)",
+      "source": "https://job-futuromat.iab.de/?job=29056"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/29056",
+    "image": {
+      "kind": "generated",
+      "path": "images/industriemechanik.webp",
+      "title": "Beispielhafte Tätigkeit: Industriemechaniker/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Industriemechaniker/in",
+      "width": 768,
+      "height": 512,
+      "version": "58cc8d2b2d82"
+    },
+    "day": [
+      "Du prüfst Wartungspläne und gemeldete Störungen.",
+      "Du zerlegst, prüfst und reparierst Maschinenteile.",
+      "Du testest die Maschine und dokumentierst die Reparatur."
+    ],
+    "hours": "Je nach Betrieb Tagesarbeit oder Schicht- und Bereitschaftsdienst."
+  },
+  {
+    "id": "mechatronik",
+    "title": "Mechatroniker/in",
+    "category": "Technik und Forschung",
+    "description": "Du verbindest Mechanik, Elektronik und Computertechnik. Daraus entstehen Anlagen, die Aufgaben ausführen.",
+    "tasks": [
+      "Bauteile verbinden",
+      "Steuerungen einrichten",
+      "Systeme testen"
+    ],
+    "environment": [
+      "Werkstatt oder Fabrik",
+      "Technik"
+    ],
+    "training": {
+      "years": 3.5,
+      "path": "Duale Ausbildung von 3,5 Jahren."
+    },
+    "scores": {
+      "learning": 8,
+      "physical": 6,
+      "mental": 6,
+      "future": 8
+    },
+    "challenge": "Du musst das Zusammenspiel vieler Teile verstehen.",
+    "joy": "Du bringst Maschinen wie geplant zum Arbeiten.",
+    "tryIt": "Zeichne einen Roboter mit Sensoren, Motoren und Steuerung.",
+    "imageQuery": "mechatronics technician robot",
+    "futureReason": "Automatisierung braucht Aufbau und Wartung; KI hilft beim Programmieren.",
+    "sourceTitle": "Mechatroniker/in",
+    "dkz": 2862,
+    "kldb": "B 26112",
+    "group": "Berufe in der Mechatronik - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/2862",
+      "group": "Berufe in der Mechatronik - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4105,
+    "salaryCapped": false,
+    "employed": 47700,
+    "gender": {
+      "men": 43150,
+      "women": 4550
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 6422,
+      "employees": 76505,
+      "perHundred": 8.394222599830076,
+      "group": "Fachkräfte in der Mechatronik",
+      "source": "https://job-futuromat.iab.de/?job=2862"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/2862",
+    "image": {
+      "kind": "generated",
+      "path": "images/mechatronik.webp",
+      "title": "Beispielhafte Tätigkeit: Mechatroniker/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Mechatroniker/in",
+      "width": 768,
+      "height": 512,
+      "version": "640a2d299bc0"
+    },
+    "day": [
+      "Du liest technische Unterlagen für eine Anlage.",
+      "Du verbindest mechanische und elektronische Bauteile und richtest die Steuerung ein.",
+      "Du testest das Zusammenspiel und behebst Fehler."
+    ],
+    "hours": "Je nach Betrieb tagsüber oder im Schichtdienst; Montageeinsätze sind möglich."
+  },
+  {
+    "id": "physiklabor",
+    "title": "Physiklaborant/in",
+    "category": "Technik und Forschung",
+    "description": "Du untersuchst Materialien und Geräte. Du baust Versuche auf und misst genau.",
+    "tasks": [
+      "Versuche aufbauen",
+      "Messwerte aufnehmen",
+      "Ergebnisse dokumentieren"
+    ],
+    "environment": [
+      "Labor",
+      "Forschung"
+    ],
+    "training": {
+      "years": 3.5,
+      "path": "Duale Ausbildung von 3,5 Jahren."
+    },
+    "scores": {
+      "learning": 8,
+      "physical": 3,
+      "mental": 6,
+      "future": 7
+    },
+    "challenge": "Kleine Messfehler können Ergebnisse verändern.",
+    "joy": "Du entdeckst durch Experimente, wie etwas funktioniert.",
+    "tryIt": "Vergleiche Rollstrecken eines Spielzeugautos auf verschiedenen Flächen.",
+    "imageQuery": "physics laboratory scientist experiment",
+    "futureReason": "Messungen werden automatisierter; Versuchsaufbau bleibt wichtig, Forschungsausgaben beeinflussen Stellen.",
+    "sourceTitle": "Physiklaborant/in",
+    "dkz": 6349,
+    "kldb": "B 41412",
+    "group": "Berufe im physikalisch-technischen Laboratorium - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/6349",
+      "group": "Berufe im physikalisch-technischen Laboratorium - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4873,
+    "salaryCapped": false,
+    "employed": 2548,
+    "gender": {
+      "men": 1787,
+      "women": 761
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 33,
+      "employees": 3823,
+      "perHundred": 0.8631964425843578,
+      "group": "Fachkräfte im physikalisch-technischen Laboratorium",
+      "source": "https://job-futuromat.iab.de/?job=6349"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/6349",
+    "image": {
+      "kind": "generated",
+      "path": "images/physiklabor.webp",
+      "title": "Beispielhafte Tätigkeit: Physiklaborant/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Physiklaborant/in",
+      "width": 768,
+      "height": 512,
+      "version": "1be9dcb6c7b9"
+    },
+    "day": [
+      "Du bereitest Messgeräte vor und prüfst ihre Genauigkeit.",
+      "Du führst eine Versuchsreihe unter festgelegten Bedingungen durch.",
+      "Du wertest Messdaten aus und hältst Abweichungen fest."
+    ],
+    "hours": "Oft tagsüber; besondere Versuchsreihen können andere Zeiten erfordern."
+  },
+  {
+    "id": "maschinenbau",
+    "title": "Maschinenbauingenieur/in",
+    "category": "Technik und Forschung",
+    "description": "Du entwickelst Maschinen und verbesserst Bauteile. Du rechnest, zeichnest und testest deine Ideen.",
+    "tasks": [
+      "Bauteile entwerfen",
+      "Berechnungen durchführen",
+      "Prototypen testen"
+    ],
+    "environment": [
+      "Büro und Versuchshalle",
+      "Technik"
+    ],
+    "training": {
+      "years": 3.5,
+      "path": "Bachelorstudium häufig 6 bis 7 Semester; Master möglich."
+    },
+    "scores": {
+      "learning": 9,
+      "physical": 3,
+      "mental": 7,
+      "future": 7
+    },
+    "challenge": "Komplexe Berechnungen und Verantwortung verlangen Genauigkeit.",
+    "joy": "Aus deiner Idee wird eine echte Maschine.",
+    "tryIt": "Skizziere eine Maschine, die eine Alltagstätigkeit erleichtert.",
+    "imageQuery": "mechanical engineer engineering workshop",
+    "futureReason": "KI unterstützt Konstruktion; Systemverständnis bleibt wichtig, industrielle Nachfrage schwankt.",
+    "sourceTitle": "Ingenieur/in - Maschinenbau",
+    "dkz": 58731,
+    "kldb": "B 25104",
+    "group": "Berufe in der Maschinenbau- & Betriebstechnik (ohne Spezialisierung) - hoch komplexe Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/58731",
+      "group": "Berufe in der Maschinenbau- & Betriebstechnik (ohne Spezialisierung) - hoch komplexe Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 7084,
+    "salaryCapped": false,
+    "employed": 40481,
+    "gender": {
+      "men": 37257,
+      "women": 3224
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 1618,
+      "employees": 49405,
+      "perHundred": 3.274972168808825,
+      "group": "Experten in der Maschinenbau- und Betriebstechnik (ohne Spezialisierung)",
+      "source": "https://job-futuromat.iab.de/?job=58731"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/58731",
+    "image": {
+      "kind": "generated",
+      "path": "images/maschinenbau.webp",
+      "title": "Beispielhafte Tätigkeit: Maschinenbauingenieur/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Maschinenbauingenieur/in",
+      "width": 768,
+      "height": 512,
+      "version": "33aa7e61ce0f"
+    },
+    "day": [
+      "Du besprichst Anforderungen an ein neues Bauteil.",
+      "Du berechnest und modellierst eine Lösung am Computer.",
+      "Du vergleichst Testergebnisse mit der Planung und verbesserst den Entwurf."
+    ],
+    "hours": "Meist Bürozeiten mit Projektterminen; Versuche oder Montage können abweichen."
+  },
+  {
+    "id": "lebensmittel",
+    "title": "Fachkraft für Lebensmitteltechnik",
+    "category": "Technik und Forschung",
+    "description": "Du stellst mit Maschinen Lebensmittel her. Du achtest auf Zutaten, Hygiene und Qualität.",
+    "tasks": [
+      "Zutaten bereitstellen",
+      "Anlagen bedienen",
+      "Qualität prüfen"
+    ],
+    "environment": [
+      "Lebensmittelfabrik",
+      "Schichtdienst"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 5,
+      "mental": 6,
+      "future": 7
+    },
+    "challenge": "Hygiene und laufende Anlagen erfordern zuverlässige Kontrollen.",
+    "joy": "Du hilfst, Menschen mit sicheren Lebensmitteln zu versorgen.",
+    "tryIt": "Vergleiche die Zutatenlisten zweier Müslis.",
+    "imageQuery": "food processing production worker",
+    "futureReason": "Lebensmittel bleiben nötig; automatisierte Anlagen verändern Bedienung und Kontrolle.",
+    "sourceTitle": "Fachkraft - Lebensmitteltechnik",
+    "dkz": 3897,
+    "kldb": "B 29202",
+    "group": "Berufe in der Lebensmittelherstellung (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/3897",
+      "group": "Berufe in der Lebensmittelherstellung (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3590,
+    "salaryCapped": false,
+    "employed": 37713,
+    "gender": {
+      "men": 28853,
+      "women": 8860
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 1231,
+      "employees": 41762,
+      "perHundred": 2.947655763612854,
+      "group": "Fachkräfte in der Lebensmittelherstellung (ohne Spezialisierung)",
+      "source": "https://job-futuromat.iab.de/?job=3897"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/3897",
+    "image": {
+      "kind": "generated",
+      "path": "images/lebensmittel.webp",
+      "title": "Beispielhafte Tätigkeit: Fachkraft für Lebensmitteltechnik",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Fachkraft für Lebensmitteltechnik",
+      "width": 768,
+      "height": 512,
+      "version": "3da3897e8a5b"
+    },
+    "day": [
+      "Du prüfst Zutaten und Hygienebedingungen vor Produktionsbeginn.",
+      "Du überwachst die Herstellung und nimmst Qualitätsproben.",
+      "Du dokumentierst Ergebnisse und reinigst die Anlage nach Vorgabe."
+    ],
+    "hours": "In Produktionsbetrieben häufig Schichtdienst, teilweise auch am Wochenende."
+  },
+  {
+    "id": "landwirt",
+    "title": "Landwirt/in",
+    "category": "Natur und Umwelt",
+    "description": "Du erzeugst Lebensmittel und kümmerst dich um Felder oder Nutztiere. Du planst mit Wetter, Jahreszeiten und Technik.",
+    "tasks": [
+      "Pflanzen anbauen",
+      "Tiere versorgen",
+      "Maschinen einsetzen"
+    ],
+    "environment": [
+      "Hof und Feld",
+      "Natur"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 8,
+      "mental": 7,
+      "future": 7
+    },
+    "challenge": "Wetter, wirtschaftliche Risiken und Wochenendarbeit können belasten.",
+    "joy": "Du erlebst die Natur und ihr Wachstum.",
+    "tryIt": "Ziehe Kresse auf feuchtem Küchenpapier und führe ein Tagebuch.",
+    "imageQuery": "farmer working field",
+    "futureReason": "Ernährung bleibt nötig; Robotik und Betriebsstruktur verändern den Personalbedarf.",
+    "sourceTitle": "Landwirt/in",
+    "dkz": 271,
+    "kldb": "B 11102",
+    "group": "Berufe in der Landwirtschaft (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/271",
+      "group": "Berufe in der Landwirtschaft (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 2917,
+    "salaryCapped": false,
+    "employed": 23633,
+    "gender": {
+      "men": 21044,
+      "women": 2589
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 467,
+      "employees": 44033,
+      "perHundred": 1.060568210205982,
+      "group": "Fachkräfte in der Landwirtschaft (ohne Spezialisierung)",
+      "source": "https://job-futuromat.iab.de/?job=271"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/271",
+    "image": {
+      "kind": "generated",
+      "path": "images/landwirt.webp",
+      "title": "Beispielhafte Tätigkeit: Landwirt/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Landwirt/in",
+      "width": 768,
+      "height": 512,
+      "version": "d185598a046f"
+    },
+    "day": [
+      "Du prüfst Wetter, Tiere und anstehende Hofarbeiten.",
+      "Du versorgst Tiere oder bearbeitest Felder mit passender Technik.",
+      "Du kontrollierst Maschinen und planst die nächsten Arbeiten."
+    ],
+    "hours": "Häufig früher Beginn; Tierhaltung und Ernte erfordern auch Wochenendarbeit."
+  },
+  {
+    "id": "garten",
+    "title": "Gärtner/in im Garten- und Landschaftsbau",
+    "category": "Natur und Umwelt",
+    "description": "Du gestaltest Gärten und Parks. Du pflanzt, baust Wege und pflegst Grünanlagen.",
+    "tasks": [
+      "Pflanzen setzen",
+      "Wege anlegen",
+      "Grünflächen pflegen"
+    ],
+    "environment": [
+      "Draußen",
+      "Pflanzen"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 8,
+      "mental": 5,
+      "future": 8
+    },
+    "challenge": "Wetter und schwere Materialien machen die Arbeit anstrengend.",
+    "joy": "Du machst Orte grüner und lebenswerter.",
+    "tryIt": "Plane einen Garten mit Schatten und insektenfreundlichen Pflanzen.",
+    "imageQuery": "landscape gardener planting",
+    "futureReason": "Grünpflege und Klimaanpassung brauchen praktische Arbeit; Maschinen unterstützen.",
+    "sourceTitle": "Gärtner/in - Garten- und Landschaftsbau",
+    "dkz": 585,
+    "kldb": "B 12142",
+    "group": "Berufe im Garten-, Landschafts- & Sportplatzbau - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/585",
+      "group": "Berufe im Garten-, Landschafts- & Sportplatzbau - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3431,
+    "salaryCapped": false,
+    "employed": 43752,
+    "gender": {
+      "men": 40471,
+      "women": 3281
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 3516,
+      "employees": 59738,
+      "perHundred": 5.885700893903378,
+      "group": "Fachkräfte im Garten-, Landschafts- und Sportplatzbau",
+      "source": "https://job-futuromat.iab.de/?job=585"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/585",
+    "image": {
+      "kind": "generated",
+      "path": "images/garten.webp",
+      "title": "Beispielhafte Tätigkeit: Gärtner/in im Garten- und Landschaftsbau",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Gärtner/in im Garten- und Landschaftsbau",
+      "width": 768,
+      "height": 512,
+      "version": "e513541e937f"
+    },
+    "day": [
+      "Du besprichst Pflanzplan und Baustellenaufgaben.",
+      "Du pflanzt, pflegst Grün oder baust einen Gartenweg.",
+      "Du räumst Werkzeuge auf und kontrollierst die Pflanzflächen."
+    ],
+    "hours": "Meist tagsüber; Jahreszeit und Wetter beeinflussen den Ablauf."
+  },
+  {
+    "id": "forst",
+    "title": "Forstwirt/in",
+    "category": "Natur und Umwelt",
+    "description": "Du pflegst Wälder und pflanzt Bäume. Du gewinnst Holz und schützt Lebensräume.",
+    "tasks": [
+      "Bäume pflanzen",
+      "Wald pflegen",
+      "Holz ernten"
+    ],
+    "environment": [
+      "Wald",
+      "Draußen"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 9,
+      "mental": 7,
+      "future": 7
+    },
+    "challenge": "Gelände, Wetter und Werkzeuge verlangen großen Schutz.",
+    "joy": "Du arbeitest an einem langlebigen Lebensraum.",
+    "tryIt": "Bestimme mit einer erwachsenen Person Bäume anhand heruntergefallener Blätter.",
+    "imageQuery": "forestry worker forest",
+    "futureReason": "Waldumbau bleibt wichtig; Maschinen und Finanzierung beeinflussen Beschäftigung.",
+    "sourceTitle": "Forstwirt/in",
+    "dkz": 726,
+    "kldb": "B 11712",
+    "group": "Berufe in der Forstwirtschaft - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/726",
+      "group": "Berufe in der Forstwirtschaft - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4054,
+    "salaryCapped": false,
+    "employed": 8779,
+    "gender": null,
+    "demand": {
+      "year": 2024,
+      "offers": 390,
+      "employees": 12312,
+      "perHundred": 3.1676413255360623,
+      "group": "Fachkräfte in der Forstwirtschaft",
+      "source": "https://job-futuromat.iab.de/?job=726"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/726",
+    "image": {
+      "kind": "generated",
+      "path": "images/forst.webp",
+      "title": "Beispielhafte Tätigkeit: Forstwirt/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Forstwirt/in",
+      "width": 768,
+      "height": 512,
+      "version": "2413eac25973"
+    },
+    "day": [
+      "Du prüfst Arbeitsgebiet, Ausrüstung und Sicherheitsabstände.",
+      "Du pflanzt oder pflegst Bäume und bearbeitest Holz im Team.",
+      "Du kontrollierst Geräte und dokumentierst die erledigten Flächen."
+    ],
+    "hours": "Meist früh beginnende Tagesarbeit draußen, abhängig vom Wetter."
+  },
+  {
+    "id": "tierpflege",
+    "title": "Tierpfleger/in im Tierheim",
+    "category": "Natur und Umwelt",
+    "description": "Du versorgst Tiere ohne eigenes Zuhause. Du beobachtest ihr Verhalten und hilfst bei der Vermittlung.",
+    "tasks": [
+      "Tiere füttern",
+      "Gehege reinigen",
+      "Verhalten beobachten"
+    ],
+    "environment": [
+      "Tierheim",
+      "Wochenenden"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige Ausbildung Tierpflege, Fachrichtung Tierheim und Tierpension."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 7,
+      "mental": 7,
+      "future": 7
+    },
+    "challenge": "Putzen gehört täglich dazu; leidende Tiere können emotional belasten.",
+    "joy": "Du hilfst Tieren, Vertrauen zu gewinnen.",
+    "tryIt": "Entwirf einen Tierbereich und recherchiere zuerst die Bedürfnisse der Tierart.",
+    "imageQuery": "animal shelter worker dog",
+    "futureReason": "Tierbetreuung bleibt praktisch; Finanzierung der Einrichtungen begrenzt Stellen.",
+    "sourceTitle": "Tierpfleger/in - Tierheim und Tierpension",
+    "dkz": 13931,
+    "kldb": "B 11522",
+    "group": "Berufe in der Haus- & Zootierpflege - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/13931",
+      "group": "Berufe in der Haus- & Zootierpflege - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 2991,
+    "salaryCapped": false,
+    "employed": 4204,
+    "gender": {
+      "men": 1624,
+      "women": 2580
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 143,
+      "employees": 7533,
+      "perHundred": 1.898314084694013,
+      "group": "Fachkräfte in der Haus- und Zootierpflege",
+      "source": "https://job-futuromat.iab.de/?job=13931"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/13931",
+    "image": {
+      "kind": "generated",
+      "path": "images/tierpflege.webp",
+      "title": "Beispielhafte Tätigkeit: Tierpfleger/in im Tierheim",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Tierpfleger/in im Tierheim",
+      "width": 768,
+      "height": 512,
+      "version": "5c7c49fca6d6"
+    },
+    "day": [
+      "Du kontrollierst, ob es den Tieren gut geht.",
+      "Du fütterst, reinigst Bereiche und beschäftigst die Tiere passend.",
+      "Du hältst Beobachtungen fest und bereitest die nächste Versorgung vor."
+    ],
+    "hours": "Tägliche Versorgung einschließlich Wochenenden und Feiertagen."
+  },
+  {
+    "id": "abwasser",
+    "title": "Umwelttechnologe/-technologin für Abwasserbewirtschaftung",
+    "category": "Natur und Umwelt",
+    "description": "Du hilfst, schmutziges Wasser zu reinigen. Du betreust Anlagen und prüfst die Reinigung.",
+    "tasks": [
+      "Wasserproben prüfen",
+      "Anlagen überwachen",
+      "Technik warten"
+    ],
+    "environment": [
+      "Kläranlage und Labor",
+      "Umwelt"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 5,
+      "mental": 6,
+      "future": 9
+    },
+    "challenge": "Hygiene, Sicherheit und Störungen verlangen Aufmerksamkeit.",
+    "joy": "Du schützt Flüsse und die Gesundheit vieler Menschen.",
+    "tryIt": "Beobachte Erde, die sich in einem Wasserglas absetzt; niemals trinken.",
+    "imageQuery": "wastewater treatment worker",
+    "futureReason": "Wasserreinigung ist notwendige Infrastruktur; Automatisierung ergänzt Wartung.",
+    "sourceTitle": "Umwelttechnologe/-technologin - Abwasserbewirtschaftung",
+    "dkz": 138722,
+    "kldb": "B 34312",
+    "group": "Berufe in der Wasserversorgungs- & Abwassertechnik - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/138722",
+      "group": "Berufe in der Wasserversorgungs- & Abwassertechnik - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4655,
+    "salaryCapped": false,
+    "employed": 25505,
+    "gender": {
+      "men": 24751,
+      "women": 754
+    },
+    "demand": null,
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/138722",
+    "image": {
+      "kind": "generated",
+      "path": "images/abwasser.webp",
+      "title": "Beispielhafte Tätigkeit: Umwelttechnologe/-technologin für Abwasserbewirtschaftung",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Umwelttechnologe/-technologin für Abwasserbewirtschaftung",
+      "width": 768,
+      "height": 512,
+      "version": "5166fa2561b3"
+    },
+    "day": [
+      "Du prüfst die Messwerte und Meldungen der Anlage.",
+      "Du nimmst Wasserproben und wartest technische Einrichtungen.",
+      "Du wertest Kontrollen aus und übergibst wichtige Informationen."
+    ],
+    "hours": "Je nach Anlage Tages- oder Schichtdienst sowie Rufbereitschaft."
+  },
+  {
+    "id": "biolabor",
+    "title": "Biologielaborant/in",
+    "category": "Natur und Umwelt",
+    "description": "Du untersuchst Lebewesen, Zellen oder biologische Stoffe. Du arbeitest nach Versuchsplänen und hältst Ergebnisse fest.",
+    "tasks": [
+      "Proben vorbereiten",
+      "Versuche durchführen",
+      "Ergebnisse auswerten"
+    ],
+    "environment": [
+      "Labor",
+      "Biologie"
+    ],
+    "training": {
+      "years": 3.5,
+      "path": "Duale Ausbildung von 3,5 Jahren; je nach Arbeitsplatz können Tierversuche dazugehören."
+    },
+    "scores": {
+      "learning": 8,
+      "physical": 3,
+      "mental": 6,
+      "future": 7
+    },
+    "challenge": "Sauberkeit und Genauigkeit sind wichtig; manche Aufgaben werfen ethische Fragen auf.",
+    "joy": "Du gewinnst Wissen über das Leben.",
+    "tryIt": "Beobachte eine austreibende Zwiebel; züchte keine unbekannten Keime.",
+    "imageQuery": "biology laboratory technician",
+    "futureReason": "Standardversuche werden automatisiert; neue Forschung braucht sorgfältige Laborarbeit.",
+    "sourceTitle": "Biologielaborant/in",
+    "dkz": 6318,
+    "kldb": "B 41212",
+    "group": "Berufe im biologisch-technischen Laboratorium - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/6318",
+      "group": "Berufe im biologisch-technischen Laboratorium - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4293,
+    "salaryCapped": false,
+    "employed": 18694,
+    "gender": {
+      "men": 5961,
+      "women": 12733
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 287,
+      "employees": 29981,
+      "perHundred": 0.957272939528368,
+      "group": "Fachkräfte im biologisch-technischen Laboratorium",
+      "source": "https://job-futuromat.iab.de/?job=6318"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/6318",
+    "image": {
+      "kind": "generated",
+      "path": "images/biolabor.webp",
+      "title": "Beispielhafte Tätigkeit: Biologielaborant/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Biologielaborant/in",
+      "width": 768,
+      "height": 512,
+      "version": "db20b68447ee"
+    },
+    "day": [
+      "Du bereitest Proben, Geräte und den Versuchsplan vor.",
+      "Du führst biologische Untersuchungen unter kontrollierten Bedingungen durch.",
+      "Du wertest Daten aus und reinigst den Arbeitsplatz nach Vorschrift."
+    ],
+    "hours": "Oft tagsüber; laufende Versuche können Wochenend- oder Sonderdienste erfordern."
+  },
+  {
+    "id": "koch",
+    "title": "Koch/Köchin",
+    "category": "Gastronomie und Freizeit",
+    "description": "Du bereitest Gerichte für andere zu. Du planst Zutaten und sorgst dafür, dass das Essen rechtzeitig fertig ist.",
+    "tasks": [
+      "Gerichte zubereiten",
+      "Zutaten planen",
+      "Küche sauber halten"
+    ],
+    "environment": [
+      "Küche",
+      "Abende und Wochenenden"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 7,
+      "mental": 8,
+      "future": 7
+    },
+    "challenge": "Hitze und viele Bestellungen gleichzeitig können stressig sein.",
+    "joy": "Du machst Menschen mit gutem Essen Freude.",
+    "tryIt": "Bereite mit einer erwachsenen Person ein buntes kaltes Brotgesicht zu.",
+    "imageQuery": "chef cooking kitchen",
+    "futureReason": "Flexible Küchenarbeit bleibt wichtig; Technik übernimmt einzelne Schritte.",
+    "sourceTitle": "Koch/Köchin",
+    "dkz": 3722,
+    "kldb": "B 29302",
+    "group": "Köche/Köchinnen (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/3722",
+      "group": "Köche/Köchinnen (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3018,
+    "salaryCapped": false,
+    "employed": 126800,
+    "gender": {
+      "men": 98769,
+      "women": 28031
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 7534,
+      "employees": 205150,
+      "perHundred": 3.672434803802096,
+      "group": "Köche/Köchinnen (ohne Spezialisierung)",
+      "source": "https://job-futuromat.iab.de/?job=3722"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/3722",
+    "image": {
+      "kind": "generated",
+      "path": "images/koch.webp",
+      "title": "Beispielhafte Tätigkeit: Koch/Köchin",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Koch/Köchin",
+      "width": 768,
+      "height": 512,
+      "version": "febddffe119c"
+    },
+    "day": [
+      "Du prüfst Lieferungen und bereitest Zutaten vor.",
+      "Du kochst Bestellungen und stimmst dich mit dem Küchenteam ab.",
+      "Du kontrollierst Vorräte und reinigst den Arbeitsplatz."
+    ],
+    "hours": "Oft mittags und abends, auch an Wochenenden und Feiertagen."
+  },
+  {
+    "id": "baecker",
+    "title": "Bäcker/in",
+    "category": "Gastronomie und Freizeit",
+    "description": "Du machst Brot und Brötchen. Du bereitest Teige vor und beobachtest das Backen.",
+    "tasks": [
+      "Teige herstellen",
+      "Backwaren formen",
+      "Öfen bedienen"
+    ],
+    "environment": [
+      "Backstube",
+      "Früher Beginn"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 5,
+      "physical": 7,
+      "mental": 6,
+      "future": 6
+    },
+    "challenge": "Früher Arbeitsbeginn, Hitze und Stehen gehören dazu.",
+    "joy": "Aus einfachen Zutaten entsteht tägliches Essen.",
+    "tryIt": "Forme Brötchen mit einer erwachsenen Person; sie bedient den Ofen.",
+    "imageQuery": "baker making bread",
+    "futureReason": "Handwerk bleibt gefragt; industrielle Produktion automatisiert Standardwaren.",
+    "sourceTitle": "Bäcker/in",
+    "dkz": 3623,
+    "kldb": "B 29222",
+    "group": "Berufe in der Back- & Konditoreiwarenherstellung - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/3623",
+      "group": "Berufe in der Back- & Konditoreiwarenherstellung - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 2980,
+    "salaryCapped": false,
+    "employed": 42270,
+    "gender": {
+      "men": 30994,
+      "women": 11276
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 1795,
+      "employees": 60603,
+      "perHundred": 2.961899575928584,
+      "group": "Fachkräfte in der Back- und Konditoreiwarenherstellung",
+      "source": "https://job-futuromat.iab.de/?job=3623"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/3623",
+    "image": {
+      "kind": "generated",
+      "path": "images/baecker.webp",
+      "title": "Beispielhafte Tätigkeit: Bäcker/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Bäcker/in",
+      "width": 768,
+      "height": 512,
+      "version": "d42820199a92"
+    },
+    "day": [
+      "Du wiegst Zutaten ab und setzt Teige an.",
+      "Du formst Backwaren und überwachst die Backzeiten.",
+      "Du prüfst das Ergebnis und reinigst Geräte."
+    ],
+    "hours": "Häufig sehr früher Arbeitsbeginn oder Nachtarbeit, auch am Wochenende."
+  },
+  {
+    "id": "konditor",
+    "title": "Konditor/in",
+    "category": "Gastronomie und Freizeit",
+    "description": "Du stellst Kuchen und Torten her. Du verbindest Geschmack mit genauer Gestaltung.",
+    "tasks": [
+      "Massen zubereiten",
+      "Torten gestalten",
+      "Dekoration herstellen"
+    ],
+    "environment": [
+      "Backstube",
+      "Gestaltung"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 6,
+      "mental": 6,
+      "future": 6
+    },
+    "challenge": "Feine Details und viele Aufträge vor Festen verlangen Geduld.",
+    "joy": "Du gestaltest essbare kleine Kunstwerke.",
+    "tryIt": "Zeichne eine Torte mit drei verschiedenen Dekorationen.",
+    "imageQuery": "pastry chef decorating cake",
+    "futureReason": "Individuelle Gestaltung bleibt ein Vorteil; Standardgebäck wird industriell gefertigt.",
+    "sourceTitle": "Konditor/in",
+    "dkz": 3652,
+    "kldb": "B 29222",
+    "group": "Berufe in der Back- & Konditoreiwarenherstellung - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/3652",
+      "group": "Berufe in der Back- & Konditoreiwarenherstellung - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 2980,
+    "salaryCapped": false,
+    "employed": 42270,
+    "gender": {
+      "men": 30994,
+      "women": 11276
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 1795,
+      "employees": 60603,
+      "perHundred": 2.961899575928584,
+      "group": "Fachkräfte in der Back- und Konditoreiwarenherstellung",
+      "source": "https://job-futuromat.iab.de/?job=3652"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/3652",
+    "image": {
+      "kind": "generated",
+      "path": "images/konditor.webp",
+      "title": "Beispielhafte Tätigkeit: Konditor/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Konditor/in",
+      "width": 768,
+      "height": 512,
+      "version": "4cc0e8bb9c54"
+    },
+    "day": [
+      "Du bereitest Teige, Füllungen und Bestellungen vor.",
+      "Du backst und verzierst Kuchen oder Torten.",
+      "Du kontrollierst die fertigen Stücke und planst weitere Aufträge."
+    ],
+    "hours": "Oft früher Beginn; vor Festen und am Wochenende kann mehr Arbeit anfallen."
+  },
+  {
+    "id": "hotel",
+    "title": "Hotelfachmann/-frau",
+    "category": "Gastronomie und Freizeit",
+    "description": "Du sorgst dafür, dass Gäste sich wohlfühlen. Du organisierst Aufenthalte mit verschiedenen Teams.",
+    "tasks": [
+      "Gäste empfangen",
+      "Buchungen bearbeiten",
+      "Abläufe organisieren"
+    ],
+    "environment": [
+      "Hotel",
+      "Schichtdienst"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 5,
+      "mental": 7,
+      "future": 6
+    },
+    "challenge": "Beschwerden und wechselnde Arbeitszeiten verlangen Gelassenheit.",
+    "joy": "Du begegnest Menschen aus vielen Ländern.",
+    "tryIt": "Plane den Empfang für einen erfundenen Gast.",
+    "imageQuery": "hotel receptionist reception",
+    "futureReason": "Buchungen werden digitaler; persönliche Betreuung bleibt wichtig, Tourismus schwankt.",
+    "sourceTitle": "Hotelfachmann/-frau",
+    "dkz": 10006,
+    "kldb": "B 63222",
+    "group": "Berufe im Hotelservice - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/10006",
+      "group": "Berufe im Hotelservice - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 2942,
+    "salaryCapped": false,
+    "employed": 40257,
+    "gender": {
+      "men": 13943,
+      "women": 26314
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 1152,
+      "employees": 81475,
+      "perHundred": 1.4139306535747163,
+      "group": "Fachkräfte im Hotelservice",
+      "source": "https://job-futuromat.iab.de/?job=10006"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/10006",
+    "image": {
+      "kind": "generated",
+      "path": "images/hotel.webp",
+      "title": "Beispielhafte Tätigkeit: Hotelfachmann/-frau",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Hotelfachmann/-frau",
+      "width": 768,
+      "height": 512,
+      "version": "febfc7ee6a63"
+    },
+    "day": [
+      "Du übernimmst Informationen von der vorherigen Schicht.",
+      "Du begrüßt Gäste, bearbeitest Buchungen und koordinierst Wünsche.",
+      "Du prüfst offene Anliegen und übergibst an das nächste Team."
+    ],
+    "hours": "Früh-, Spät- und gegebenenfalls Nachtdienst, auch an Wochenenden."
+  },
+  {
+    "id": "restaurant",
+    "title": "Fachmann/-frau für Restaurants und Veranstaltungsgastronomie",
+    "category": "Gastronomie und Freizeit",
+    "description": "Du betreust Gäste beim Essen und bei Feiern. Du berätst und servierst Speisen und Getränke.",
+    "tasks": [
+      "Gäste beraten",
+      "Speisen servieren",
+      "Feiern vorbereiten"
+    ],
+    "environment": [
+      "Restaurant",
+      "Abende"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 5,
+      "physical": 7,
+      "mental": 7,
+      "future": 6
+    },
+    "challenge": "Viel Laufen und gleichzeitige Wünsche können anstrengend sein.",
+    "joy": "Du machst einen Besuch besonders angenehm.",
+    "tryIt": "Decke einen Tisch und entwirf eine Speisekarte.",
+    "imageQuery": "waiter serving restaurant",
+    "futureReason": "Service bleibt sozial und praktisch; Bestelltechnik verändert Aufgaben.",
+    "sourceTitle": "Fachmann/-frau - Restaurants und Veranstaltungsgastronomie",
+    "dkz": 136125,
+    "kldb": "B 63302",
+    "group": "Berufe im Gastronomieservice (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/136125",
+      "group": "Berufe im Gastronomieservice (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 2652,
+    "salaryCapped": false,
+    "employed": 63748,
+    "gender": {
+      "men": 30969,
+      "women": 32779
+    },
+    "demand": null,
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/136125",
+    "image": {
+      "kind": "generated",
+      "path": "images/restaurant.webp",
+      "title": "Beispielhafte Tätigkeit: Fachmann/-frau für Restaurants und Veranstaltungsgastronomie",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Fachmann/-frau für Restaurants und Veranstaltungsgastronomie",
+      "width": 768,
+      "height": 512,
+      "version": "485405f6ab6e"
+    },
+    "day": [
+      "Du deckst Tische und besprichst das Tagesangebot.",
+      "Du berätst Gäste und servierst ihre Bestellungen.",
+      "Du rechnest ab und bereitest den Gastraum erneut vor."
+    ],
+    "hours": "Häufig abends, am Wochenende und an Feiertagen; geteilte Dienste möglich."
+  },
+  {
+    "id": "sport",
+    "title": "Sport- und Fitnesskaufmann/-frau",
+    "category": "Gastronomie und Freizeit",
+    "description": "Du organisierst Angebote in einem Sportbetrieb. Du berätst Mitglieder und kümmerst dich um Verträge.",
+    "tasks": [
+      "Mitglieder beraten",
+      "Kurse organisieren",
+      "Verträge bearbeiten"
+    ],
+    "environment": [
+      "Sportstudio und Büro",
+      "Menschen"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung; Trainingsanleitung hängt von zusätzlichen Qualifikationen ab."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 4,
+      "mental": 6,
+      "future": 6
+    },
+    "challenge": "Verkauf, Verwaltung und Abenddienste gehören dazu.",
+    "joy": "Du hilfst Menschen, Bewegungsangebote zu finden.",
+    "tryIt": "Plane einen Bewegungstag mit ausreichend Pausen.",
+    "imageQuery": "fitness instructor gym consultation",
+    "futureReason": "Gesundheitsinteresse unterstützt Nachfrage; Apps verändern Angebote und Verwaltung.",
+    "sourceTitle": "Sport- und Fitnesskaufmann/-frau",
+    "dkz": 14618,
+    "kldb": "B 63122",
+    "group": "Sport- & Fitnesskaufleute, Sportmanager/innen - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/14618",
+      "group": "Sport- & Fitnesskaufleute, Sportmanager/innen - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 2955,
+    "salaryCapped": false,
+    "employed": 2768,
+    "gender": {
+      "men": 1790,
+      "women": 978
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 109,
+      "employees": 9177,
+      "perHundred": 1.1877519886673205,
+      "group": "Kaufmännische Fachkräfte in Sport- und Fitness, Sportmanager/innen",
+      "source": "https://job-futuromat.iab.de/?job=14618"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/14618",
+    "image": {
+      "kind": "generated",
+      "path": "images/sport.webp",
+      "title": "Beispielhafte Tätigkeit: Sport- und Fitnesskaufmann/-frau",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Sport- und Fitnesskaufmann/-frau",
+      "width": 768,
+      "height": 512,
+      "version": "0d1ae510f1d3"
+    },
+    "day": [
+      "Du prüfst Kursplan und Anmeldungen.",
+      "Du berätst Mitglieder und organisierst Angebote und Verträge.",
+      "Du wertest Buchungen aus und bereitest Aktionen vor."
+    ],
+    "hours": "Innerhalb der Studioöffnungszeiten, häufig auch abends und am Wochenende."
+  },
+  {
+    "id": "einzelhandel",
+    "title": "Kaufmann/-frau im Einzelhandel",
+    "category": "Wirtschaft und Öffentlichkeit",
+    "description": "Du hilfst Menschen, passende Waren zu finden. Du bestellst Produkte und organisierst den Laden.",
+    "tasks": [
+      "Kundschaft beraten",
+      "Waren bestellen",
+      "Bestände prüfen"
+    ],
+    "environment": [
+      "Geschäft",
+      "Samstage"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 5,
+      "physical": 5,
+      "mental": 6,
+      "future": 5
+    },
+    "challenge": "Stehen und schwierige Gespräche können belasten.",
+    "joy": "Du hilfst bei konkreten Kaufentscheidungen.",
+    "tryIt": "Baue einen Papierladen mit übersichtlicher Warenordnung.",
+    "imageQuery": "retail shop assistant customer",
+    "futureReason": "Onlinehandel und Selbstbedienung verändern Stellen; Fachberatung bleibt wertvoll.",
+    "sourceTitle": "Kaufmann/-frau - Einzelhandel",
+    "dkz": 6565,
+    "kldb": "B 62102",
+    "group": "Berufe im Verkauf (ohne Produktspezialisierung) - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/6565",
+      "group": "Berufe im Verkauf (ohne Produktspezialisierung) - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 2976,
+    "salaryCapped": false,
+    "employed": 271572,
+    "gender": {
+      "men": 130997,
+      "women": 140575
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 27676,
+      "employees": 899273,
+      "perHundred": 3.077597125678187,
+      "group": "Fachkräfte im Verkauf (ohne Produktspezialisierung)",
+      "source": "https://job-futuromat.iab.de/?job=6565"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/6565",
+    "image": {
+      "kind": "generated",
+      "path": "images/einzelhandel.webp",
+      "title": "Beispielhafte Tätigkeit: Kaufmann/-frau im Einzelhandel",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Kaufmann/-frau im Einzelhandel",
+      "width": 768,
+      "height": 512,
+      "version": "40593f6c686b"
+    },
+    "day": [
+      "Du räumst neue Waren ein und prüfst Preise.",
+      "Du berätst Kundschaft und bearbeitest Verkäufe.",
+      "Du kontrollierst Bestände und bereitest Nachbestellungen vor."
+    ],
+    "hours": "Zu Ladenöffnungszeiten, häufig samstags und teilweise abends."
+  },
+  {
+    "id": "buero",
+    "title": "Kaufmann/-frau für Büromanagement",
+    "category": "Wirtschaft und Öffentlichkeit",
+    "description": "Du hältst ein Büro organisiert. Du koordinierst Termine und bearbeitest Unterlagen.",
+    "tasks": [
+      "Termine abstimmen",
+      "Anfragen beantworten",
+      "Rechnungen vorbereiten"
+    ],
+    "environment": [
+      "Büro",
+      "Computer"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 2,
+      "mental": 6,
+      "future": 5
+    },
+    "challenge": "Unterbrechungen und viele Aufgaben verlangen Überblick.",
+    "joy": "Deine Organisation hilft dem ganzen Team.",
+    "tryIt": "Plane ein Fest mit Terminen, Aufgaben und Material.",
+    "imageQuery": "office administrative assistant working",
+    "futureReason": "KI übernimmt Routinekorrespondenz; Koordination und Sonderfälle bleiben.",
+    "sourceTitle": "Kaufmann/-frau - Büromanagement",
+    "dkz": 123265,
+    "kldb": "B 71402",
+    "group": "Büro- & Sekretariatskräfte (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/123265",
+      "group": "Büro- & Sekretariatskräfte (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4022,
+    "salaryCapped": false,
+    "employed": 853312,
+    "gender": {
+      "men": 261556,
+      "women": 591756
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 17868,
+      "employees": 1692472,
+      "perHundred": 1.0557338614759948,
+      "group": "Fachkräfte im Büro und Sekretariat (ohne Spezialisierung)",
+      "source": "https://job-futuromat.iab.de/?job=123265"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/123265",
+    "image": {
+      "kind": "generated",
+      "path": "images/buero.webp",
+      "title": "Beispielhafte Tätigkeit: Kaufmann/-frau für Büromanagement",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Kaufmann/-frau für Büromanagement",
+      "width": 768,
+      "height": 512,
+      "version": "b52921fff2ab"
+    },
+    "day": [
+      "Du sichtest Anfragen und planst Termine.",
+      "Du bearbeitest Unterlagen und koordinierst Absprachen.",
+      "Du prüfst offene Aufgaben und bereitest den nächsten Tag vor."
+    ],
+    "hours": "Meist werktags zu Bürozeiten; abhängig vom Betrieb flexible Zeiten möglich."
+  },
+  {
+    "id": "optik",
+    "title": "Augenoptiker/in",
+    "category": "Wirtschaft und Öffentlichkeit",
+    "description": "Du hilfst Menschen, eine passende Brille zu bekommen. Du berätst und passt Brillen genau an.",
+    "tasks": [
+      "Brillen beraten",
+      "Gläser bearbeiten",
+      "Brillen anpassen"
+    ],
+    "environment": [
+      "Geschäft und Werkstatt",
+      "Präzision"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 3,
+      "mental": 5,
+      "future": 7
+    },
+    "challenge": "Kleine Maße müssen stimmen; Beratung braucht Geduld.",
+    "joy": "Du verbindest Handwerk mit besserem Sehen.",
+    "tryIt": "Entwirf eine Brillenfassung aus Papier.",
+    "imageQuery": "optician adjusting glasses",
+    "futureReason": "Persönliche Anpassung bleibt wichtig; Onlinehandel verändert Standardaufgaben.",
+    "sourceTitle": "Augenoptiker/in",
+    "dkz": 2629,
+    "kldb": "B 82522",
+    "group": "Berufe in der Augenoptik - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/2629",
+      "group": "Berufe in der Augenoptik - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3063,
+    "salaryCapped": false,
+    "employed": 16395,
+    "gender": {
+      "men": 5260,
+      "women": 11135
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 984,
+      "employees": 36136,
+      "perHundred": 2.7230462696479965,
+      "group": "Fachkräfte in der Augenoptik",
+      "source": "https://job-futuromat.iab.de/?job=2629"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/2629",
+    "day": [
+      "Du bereitest Werkstatt und Beratungstermine vor.",
+      "Du berätst bei Brillen und bearbeitest oder montierst Gläser.",
+      "Du passt eine fertige Brille an und prüfst ihren Sitz."
+    ],
+    "hours": "Zu Ladenöffnungszeiten, häufig auch samstags.",
+    "image": {
+      "kind": "generated",
+      "path": "images/optik.webp",
+      "title": "Beispielhafte Tätigkeit: Augenoptiker/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Augenoptiker/in",
+      "width": 768,
+      "height": 512,
+      "version": "47f90525f20f"
+    }
+  },
+  {
+    "id": "steuer",
+    "title": "Steuerfachangestellte/r",
+    "category": "Wirtschaft und Öffentlichkeit",
+    "description": "Du ordnest Einnahmen, Ausgaben und Steuern. Du bereitest Unterlagen für Menschen und Firmen vor.",
+    "tasks": [
+      "Belege prüfen",
+      "Buchführung bearbeiten",
+      "Steuererklärungen vorbereiten"
+    ],
+    "environment": [
+      "Büro",
+      "Zahlen"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 8,
+      "physical": 2,
+      "mental": 7,
+      "future": 6
+    },
+    "challenge": "Vorschriften ändern sich und Fristen sind wichtig.",
+    "joy": "Du bringst Ordnung in schwierige Zahlenfragen.",
+    "tryIt": "Rechne erfundene Einnahmen und Kosten eines Schulfests zusammen.",
+    "imageQuery": "accountant working documents",
+    "futureReason": "Belegerfassung wird automatisiert; Prüfung und wechselnde Regeln bleiben wichtig.",
+    "sourceTitle": "Steuerfachangestellte/r",
+    "dkz": 7572,
+    "kldb": "B 72302",
+    "group": "Berufe in der Steuerberatung - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/7572",
+      "group": "Berufe in der Steuerberatung - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3654,
+    "salaryCapped": false,
+    "employed": 70156,
+    "gender": {
+      "men": 20547,
+      "women": 49609
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 3973,
+      "employees": 137515,
+      "perHundred": 2.8891393666145513,
+      "group": "Fachkräfte in der Steuerberatung",
+      "source": "https://job-futuromat.iab.de/?job=7572"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/7572",
+    "image": {
+      "kind": "generated",
+      "path": "images/steuer.webp",
+      "title": "Beispielhafte Tätigkeit: Steuerfachangestellte/r",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Steuerfachangestellte/r",
+      "width": 768,
+      "height": 512,
+      "version": "264886af72ca"
+    },
+    "day": [
+      "Du sichtest neue Belege und anstehende Fristen.",
+      "Du bearbeitest Buchungen und klärst fehlende Angaben.",
+      "Du prüfst Unterlagen und bereitest Erklärungen zur Kontrolle vor."
+    ],
+    "hours": "Meist Bürozeiten; vor wichtigen Fristen kann Mehrarbeit entstehen."
+  },
+  {
+    "id": "anwalt",
+    "title": "Rechtsanwalt/-anwältin",
+    "category": "Wirtschaft und Öffentlichkeit",
+    "description": "Du berätst Menschen zu ihren Rechten. Du suchst Lösungen für Streit und vertrittst Interessen vor Gericht.",
+    "tasks": [
+      "Rechtsfragen prüfen",
+      "Menschen beraten",
+      "Schriftsätze erstellen"
+    ],
+    "environment": [
+      "Kanzlei und Gericht",
+      "Sprache"
+    ],
+    "training": {
+      "years": 7,
+      "path": "Jurastudium mit erster Prüfung plus zweijähriges Referendariat mit zweiter Staatsprüfung; Beispiel insgesamt 7 Jahre."
+    },
+    "scores": {
+      "learning": 10,
+      "physical": 2,
+      "mental": 9,
+      "future": 6
+    },
+    "challenge": "Konflikte, Fristen und Verantwortung erzeugen Druck.",
+    "joy": "Du hilfst Menschen, ihre Rechte wahrzunehmen.",
+    "tryIt": "Überlege anhand eines Brettspiels, wie ihr Regelstreit fair löst.",
+    "imageQuery": "lawyer client meeting",
+    "futureReason": "KI verändert Recherche und Textarbeit; Verantwortung und Vertretung bleiben wichtig.",
+    "sourceTitle": "Rechtsanwalt/Rechtsanwältin",
+    "dkz": 8241,
+    "kldb": "B 73134",
+    "group": "Rechtsanwälte/-anwältinnen - hoch komplexe Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/8241",
+      "group": "Rechtsanwälte/-anwältinnen - hoch komplexe Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 7922,
+    "salaryCapped": false,
+    "employed": 31972,
+    "gender": {
+      "men": 18476,
+      "women": 13496
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 505,
+      "employees": 41268,
+      "perHundred": 1.22370844237666,
+      "group": "Rechtsanwälte/-anwältinnen",
+      "source": "https://job-futuromat.iab.de/?job=8241"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/8241",
+    "image": {
+      "kind": "generated",
+      "path": "images/anwalt.webp",
+      "title": "Beispielhafte Tätigkeit: Rechtsanwalt/-anwältin",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Rechtsanwalt/-anwältin",
+      "width": 768,
+      "height": 512,
+      "version": "6d91e6cb933d"
+    },
+    "day": [
+      "Du liest neue Unterlagen und bereitest Termine vor.",
+      "Du berätst, verhandelst oder vertrittst Menschen vor Gericht.",
+      "Du verfasst Schreiben und prüfst rechtliche Argumente."
+    ],
+    "hours": "Oft Büro- und Gerichtstermine; Fristen können längere Arbeitstage bedeuten."
+  },
+  {
+    "id": "journalismus",
+    "title": "Journalist/in",
+    "category": "Wirtschaft und Öffentlichkeit",
+    "description": "Du findest heraus, was passiert ist, und erklärst es anderen. Du prüfst Informationen und erstellst Beiträge.",
+    "tasks": [
+      "Informationen recherchieren",
+      "Interviews führen",
+      "Beiträge erstellen"
+    ],
+    "environment": [
+      "Redaktion und unterwegs",
+      "Sprache"
+    ],
+    "training": {
+      "years": 5,
+      "path": "Kein vorgeschriebener Weg; Beispiel dreijähriges Studium plus zweijähriges Volontariat."
+    },
+    "scores": {
+      "learning": 8,
+      "physical": 3,
+      "mental": 8,
+      "future": 5
+    },
+    "challenge": "Zeitdruck und schwankende Einnahmen können belasten.",
+    "joy": "Du machst wichtige Geschichten sichtbar.",
+    "tryIt": "Interviewe jemanden mit Einverständnis und notiere drei überprüfte Fakten.",
+    "imageQuery": "journalist interviewing microphone",
+    "futureReason": "KI produziert Standardinhalte; eigene Recherche bleibt wertvoll, Geschäftsmodelle sind unsicher.",
+    "sourceTitle": "Journalist/in",
+    "dkz": 8293,
+    "kldb": "B 92414",
+    "group": "Redakteure/Redakteurinnen & Journalisten/Journalistinnen - hoch komplexe Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/8293",
+      "group": "Redakteure/Redakteurinnen & Journalisten/Journalistinnen - hoch komplexe Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 5653,
+    "salaryCapped": false,
+    "employed": 7535,
+    "gender": {
+      "men": 4067,
+      "women": 3468
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 51,
+      "employees": 12308,
+      "perHundred": 0.4143646408839779,
+      "group": "Experten in Redaktion und Journalismus",
+      "source": "https://job-futuromat.iab.de/?job=8293"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/8293",
+    "image": {
+      "kind": "generated",
+      "path": "images/journalismus.webp",
+      "title": "Beispielhafte Tätigkeit: Journalist/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Journalist/in",
+      "width": 768,
+      "height": 512,
+      "version": "34b17848963b"
+    },
+    "day": [
+      "Du suchst ein Thema und prüfst erste Informationen.",
+      "Du recherchierst, führst Interviews und überprüfst Aussagen.",
+      "Du schreibst oder schneidest den Beitrag und stimmst ihn redaktionell ab."
+    ],
+    "hours": "Je nach Redaktion unregelmäßig, auch abends und am Wochenende."
+  },
+  {
+    "id": "software",
+    "title": "Fachinformatiker/in für Anwendungsentwicklung",
+    "category": "Computer und Gestaltung",
+    "description": "Du entwickelst Programme, die Aufgaben lösen. Du besprichst Wünsche und suchst Fehler im Code.",
+    "tasks": [
+      "Anwendungen programmieren",
+      "Wünsche klären",
+      "Programme testen"
+    ],
+    "environment": [
+      "Büro",
+      "Computer"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 8,
+      "physical": 2,
+      "mental": 7,
+      "future": 7
+    },
+    "challenge": "Fehler sind manchmal schwer zu finden; Technik verändert sich ständig.",
+    "joy": "Aus deiner Idee wird ein benutzbares Programm.",
+    "tryIt": "Schreibe eine genaue Anleitung zum Falten eines Papierflugzeugs.",
+    "imageQuery": "software developer computer programming",
+    "futureReason": "KI übernimmt Codearbeit; Anforderungen, Prüfung und Systemverständnis bleiben wichtig.",
+    "sourceTitle": "Fachinformatiker/in - Anwendungsentwicklung",
+    "dkz": 13659,
+    "kldb": "B 43412",
+    "group": "Berufe in der Softwareentwicklung - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/13659",
+      "group": "Berufe in der Softwareentwicklung - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4612,
+    "salaryCapped": false,
+    "employed": 20510,
+    "gender": {
+      "men": 17995,
+      "women": 2515
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 582,
+      "employees": 35881,
+      "perHundred": 1.6220283715615507,
+      "group": "Fachkräfte in der Softwareentwicklung",
+      "source": "https://job-futuromat.iab.de/?job=13659"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/13659",
+    "image": {
+      "kind": "generated",
+      "path": "images/software.webp",
+      "title": "Beispielhafte Tätigkeit: Fachinformatiker/in für Anwendungsentwicklung",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Fachinformatiker/in für Anwendungsentwicklung",
+      "width": 768,
+      "height": 512,
+      "version": "3ecfdcb80d8c"
+    },
+    "day": [
+      "Du besprichst Anforderungen und offene Probleme im Team.",
+      "Du programmierst eine Funktion und testest ihr Verhalten.",
+      "Du prüfst Änderungen mit anderen und dokumentierst die Lösung."
+    ],
+    "hours": "Oft flexible Bürozeiten; Veröffentlichungstermine können Zeitdruck erzeugen."
+  },
+  {
+    "id": "systemintegration",
+    "title": "Fachinformatiker/in für Systemintegration",
+    "category": "Computer und Gestaltung",
+    "description": "Du sorgst dafür, dass Computer und Netzwerke zusammenarbeiten. Du richtest Systeme ein und behebst Probleme.",
+    "tasks": [
+      "Netzwerke einrichten",
+      "Systeme absichern",
+      "Störungen beheben"
+    ],
+    "environment": [
+      "Büro und Serverraum",
+      "Technik"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 8,
+      "physical": 3,
+      "mental": 7,
+      "future": 8
+    },
+    "challenge": "Ausfälle erzeugen Zeitdruck und Sicherheit verlangt Aufmerksamkeit.",
+    "joy": "Du bringst Technik für andere zuverlässig zum Laufen.",
+    "tryIt": "Zeichne verbundene Geräte in eurem Haushalt, ohne Einstellungen zu verändern.",
+    "imageQuery": "IT technician server rack",
+    "futureReason": "Digitale Infrastruktur braucht Sicherheit; KI automatisiert Routinen und Diagnose.",
+    "sourceTitle": "Fachinformatiker/in - Systemintegration",
+    "dkz": 7817,
+    "kldb": "B 43102",
+    "group": "Berufe in der Informatik (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/7817",
+      "group": "Berufe in der Informatik (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 5189,
+    "salaryCapped": false,
+    "employed": 87062,
+    "gender": {
+      "men": 76841,
+      "women": 10221
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 1961,
+      "employees": 125465,
+      "perHundred": 1.5629856932212172,
+      "group": "Fachkräfte in der Informatik (ohne Spezialisierung)",
+      "source": "https://job-futuromat.iab.de/?job=7817"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/7817",
+    "image": {
+      "kind": "generated",
+      "path": "images/systemintegration.webp",
+      "title": "Beispielhafte Tätigkeit: Fachinformatiker/in für Systemintegration",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Fachinformatiker/in für Systemintegration",
+      "width": 768,
+      "height": 512,
+      "version": "1f402f4141a8"
+    },
+    "day": [
+      "Du prüfst Systemmeldungen und Supportanfragen.",
+      "Du richtest Geräte oder Netzwerke ein und behebst Störungen.",
+      "Du dokumentierst Änderungen und prüfst Sicherungen."
+    ],
+    "hours": "Oft Bürozeiten, je nach Betrieb auch Bereitschaft oder Wartung außerhalb der Nutzungszeiten."
+  },
+  {
+    "id": "mediengestaltung",
+    "title": "Mediengestalter/in Digital und Print",
+    "category": "Computer und Gestaltung",
+    "description": "Du gestaltest Informationen für Bildschirme und Papier. Du kombinierst Schrift, Bilder und Farben.",
+    "tasks": [
+      "Layouts gestalten",
+      "Bilder bearbeiten",
+      "Ausgaben vorbereiten"
+    ],
+    "environment": [
+      "Büro",
+      "Gestaltung"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung mit verschiedenen Fachrichtungen."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 2,
+      "mental": 6,
+      "future": 5
+    },
+    "challenge": "Korrekturen und knappe Termine können anstrengend sein.",
+    "joy": "Du machst Informationen verständlich und schön.",
+    "tryIt": "Gestalte ein gut lesbares Plakat für ein Schulfest.",
+    "imageQuery": "graphic designer working screen",
+    "futureReason": "Generative KI übernimmt Gestaltungsschritte; Zielgruppenverständnis und Qualitätsprüfung bleiben wichtig.",
+    "sourceTitle": "Mediengestalter/in Digital und Print - Gestaltung und Technik",
+    "dkz": 57882,
+    "kldb": "B 23212",
+    "group": "Berufe in der Digital- & Printmediengestaltung - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/57882",
+      "group": "Berufe in der Digital- & Printmediengestaltung - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3415,
+    "salaryCapped": false,
+    "employed": 17320,
+    "gender": {
+      "men": 8620,
+      "women": 8700
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 467,
+      "employees": 28016,
+      "perHundred": 1.6669046259280411,
+      "group": "Fachkräfte in der Digital- und Printmediengestaltung",
+      "source": "https://job-futuromat.iab.de/?job=57882"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/57882",
+    "image": {
+      "kind": "generated",
+      "path": "images/mediengestaltung.webp",
+      "title": "Beispielhafte Tätigkeit: Mediengestalter/in Digital und Print",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Mediengestalter/in Digital und Print",
+      "width": 768,
+      "height": 512,
+      "version": "607940b786d6"
+    },
+    "day": [
+      "Du besprichst Zielgruppe, Format und Gestaltungswünsche.",
+      "Du erstellst ein Layout und bearbeitest Bilder und Texte.",
+      "Du prüfst Lesbarkeit und Dateien vor der Veröffentlichung."
+    ],
+    "hours": "Meist Bürozeiten; Abgabetermine können Mehrarbeit bedeuten."
+  },
+  {
+    "id": "fotografie",
+    "title": "Fotograf/in",
+    "category": "Computer und Gestaltung",
+    "description": "Du erzählst mit Bildern Geschichten. Du planst Licht und bearbeitest deine Aufnahmen.",
+    "tasks": [
+      "Aufnahmen planen",
+      "Licht einrichten",
+      "Fotos bearbeiten"
+    ],
+    "environment": [
+      "Studio und unterwegs",
+      "Bilder"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung; andere Einstiege möglich."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 4,
+      "mental": 6,
+      "future": 5
+    },
+    "challenge": "Aufträge schwanken und Lichtbedingungen sind nicht immer einfach.",
+    "joy": "Du hältst besondere Perspektiven fest.",
+    "tryIt": "Fotografiere einen Gegenstand aus drei Winkeln; frage Menschen vor Fotos um Erlaubnis.",
+    "imageQuery": "photographer camera studio",
+    "futureReason": "KI ersetzt Teile von Stockbildern; echte Ereignisse und persönliche Aufträge bleiben.",
+    "sourceTitle": "Fotograf/in",
+    "dkz": 76792,
+    "kldb": "B 23322",
+    "group": "Berufe in der Fotografie - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/76792",
+      "group": "Berufe in der Fotografie - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3317,
+    "salaryCapped": false,
+    "employed": 2786,
+    "gender": {
+      "men": 1521,
+      "women": 1265
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 61,
+      "employees": 5757,
+      "perHundred": 1.0595796421747439,
+      "group": "Fachkräfte in der Fotografie",
+      "source": "https://job-futuromat.iab.de/?job=76792"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/76792",
+    "image": {
+      "kind": "generated",
+      "path": "images/fotografie.webp",
+      "title": "Beispielhafte Tätigkeit: Fotograf/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Fotograf/in",
+      "width": 768,
+      "height": 512,
+      "version": "948595d44e43"
+    },
+    "day": [
+      "Du planst Motiv, Licht und Ausrüstung.",
+      "Du fotografierst und stimmst die Aufnahmen mit Beteiligten ab.",
+      "Du wählst Bilder aus und bearbeitest sie."
+    ],
+    "hours": "Abhängig vom Auftrag, bei Veranstaltungen häufig abends oder am Wochenende."
+  },
+  {
+    "id": "produktdesign",
+    "title": "Technische/r Produktdesigner/in",
+    "category": "Computer und Gestaltung",
+    "description": "Du zeichnest Bauteile am Computer. Deine Pläne zeigen, wie etwas gebaut werden soll.",
+    "tasks": [
+      "3D-Modelle erstellen",
+      "Maße festlegen",
+      "Unterlagen prüfen"
+    ],
+    "environment": [
+      "Konstruktionsbüro",
+      "Zeichnen"
+    ],
+    "training": {
+      "years": 3.5,
+      "path": "Duale Ausbildung von 3,5 Jahren."
+    },
+    "scores": {
+      "learning": 8,
+      "physical": 2,
+      "mental": 6,
+      "future": 6
+    },
+    "challenge": "Maße und technische Vorgaben müssen genau stimmen.",
+    "joy": "Deine Zeichnung wird ein echtes Produkt.",
+    "tryIt": "Zeichne einen Gegenstand von vorn, oben und der Seite.",
+    "imageQuery": "CAD designer engineering computer",
+    "futureReason": "CAD und KI automatisieren Zeichenschritte; Fertigungswissen bleibt nötig.",
+    "sourceTitle": "Technische/r Produktdesigner/in (ohne Fachrichtungen)",
+    "dkz": 33219,
+    "kldb": "B 27212",
+    "group": "Technische Zeichner/innen - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/33219",
+      "group": "Technische Zeichner/innen - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4029,
+    "salaryCapped": false,
+    "employed": 68026,
+    "gender": {
+      "men": 38906,
+      "women": 29120
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 2131,
+      "employees": 109009,
+      "perHundred": 1.9548844590813603,
+      "group": "Technische Zeichner/innen",
+      "source": "https://job-futuromat.iab.de/?job=33219"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/33219",
+    "image": {
+      "kind": "generated",
+      "path": "images/produktdesign.webp",
+      "title": "Beispielhafte Tätigkeit: Technische/r Produktdesigner/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Technische/r Produktdesigner/in",
+      "width": 768,
+      "height": 512,
+      "version": "68ae9f00fbb0"
+    },
+    "day": [
+      "Du besprichst technische Anforderungen und Maße.",
+      "Du erstellst ein dreidimensionales Modell und Zeichnungen.",
+      "Du prüfst Änderungen und bereitest Fertigungsunterlagen vor."
+    ],
+    "hours": "Überwiegend werktags zu Bürozeiten, abhängig von Projektterminen."
+  },
+  {
+    "id": "architektur",
+    "title": "Architekt/in",
+    "category": "Computer und Gestaltung",
+    "description": "Du entwirfst Gebäude und planst ihre Nutzung. Du verbindest Gestaltung mit Technik und Kosten.",
+    "tasks": [
+      "Gebäude entwerfen",
+      "Pläne abstimmen",
+      "Bauarbeiten begleiten"
+    ],
+    "environment": [
+      "Büro und Baustelle",
+      "Gestaltung"
+    ],
+    "training": {
+      "years": 6,
+      "path": "Kammerfähiges Studium meist mindestens 4 Jahre plus meist 2 Jahre Praxis für die geschützte Bezeichnung; Landesrecht beachten."
+    },
+    "scores": {
+      "learning": 9,
+      "physical": 3,
+      "mental": 8,
+      "future": 7
+    },
+    "challenge": "Kosten, Regeln und viele Beteiligte machen Projekte anspruchsvoll.",
+    "joy": "Du gestaltest Räume für Menschen.",
+    "tryIt": "Zeichne einen Hausgrundriss mit Fenstern, Türen und Möbeln.",
+    "imageQuery": "architect building plans model",
+    "futureReason": "KI hilft beim Entwurf; Bauverantwortung bleibt menschlich, Baukonjunktur beeinflusst Stellen.",
+    "sourceTitle": "Architekt/in",
+    "dkz": 15706,
+    "kldb": "B 31114",
+    "group": "Berufe in der Architektur - hoch komplexe Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/15706",
+      "group": "Berufe in der Architektur - hoch komplexe Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4950,
+    "salaryCapped": false,
+    "employed": 54621,
+    "gender": {
+      "men": 29886,
+      "women": 24735
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 1131,
+      "employees": 79304,
+      "perHundred": 1.4261575708665388,
+      "group": "Experten in der Architektur",
+      "source": "https://job-futuromat.iab.de/?job=15706"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/15706",
+    "image": {
+      "kind": "generated",
+      "path": "images/architektur.webp",
+      "title": "Beispielhafte Tätigkeit: Architekt/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Architekt/in",
+      "width": 768,
+      "height": 512,
+      "version": "9ea8cdd2b955"
+    },
+    "day": [
+      "Du besprichst Wünsche und Vorgaben für ein Bauprojekt.",
+      "Du entwirfst Pläne oder stimmst Details auf der Baustelle ab.",
+      "Du prüfst Änderungen, Kosten und die nächsten Planungsschritte."
+    ],
+    "hours": "Meist Bürozeiten mit Baustellenterminen; Projektfristen können längere Tage bedeuten."
+  },
+  {
+    "id": "lok",
+    "title": "Lokführer/in",
+    "category": "Infrastruktur und Kultur",
+    "description": "Du steuerst Züge mit Menschen oder Gütern. Du beachtest Signale und prüfst dein Fahrzeug.",
+    "tasks": [
+      "Züge führen",
+      "Signale beachten",
+      "Fahrzeuge kontrollieren"
+    ],
+    "environment": [
+      "Führerstand",
+      "Schichtdienst"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige Ausbildung Eisenbahner/in im Betriebsdienst – Lokführer/in und Transport; kürzere Erwachsenenqualifizierungen möglich."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 3,
+      "mental": 9,
+      "future": 7
+    },
+    "challenge": "Lange Konzentration und unerwartete Ereignisse können belasten.",
+    "joy": "Du bewegst viele Menschen oder große Gütermengen.",
+    "tryIt": "Zeichne eine Bahnstrecke und erstelle einen Fahrplan.",
+    "imageQuery": "train driver cab",
+    "futureReason": "Bahnverkehr bleibt wichtig; automatisiertes Fahren entwickelt sich mit unsicherem Zeitplan.",
+    "sourceTitle": "Eisenbahner/in - Betriebsdienst - Lokführer/in und Transport",
+    "dkz": 136200,
+    "kldb": "B 52202",
+    "group": "Triebfahrzeugführer/innen im Eisenbahnverkehr (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/136200",
+      "group": "Triebfahrzeugführer/innen im Eisenbahnverkehr (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4251,
+    "salaryCapped": false,
+    "employed": 36767,
+    "gender": {
+      "men": 34748,
+      "women": 2019
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 1815,
+      "employees": 41417,
+      "perHundred": 4.3822584928893935,
+      "group": "Triebfahrzeugführer/innen im Eisenbahnverkehr (ohne Spezialisierung)",
+      "source": "https://job-futuromat.iab.de/?job=136200"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/136200",
+    "image": {
+      "kind": "generated",
+      "path": "images/lok.webp",
+      "title": "Beispielhafte Tätigkeit: Lokführer/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Lokführer/in",
+      "width": 768,
+      "height": 512,
+      "version": "dc3723cd0fd1"
+    },
+    "day": [
+      "Du übernimmst Dienstinformationen und prüfst den Zug.",
+      "Du fährst nach Signalen und betrieblichen Regeln.",
+      "Du übergibst das Fahrzeug und meldest Besonderheiten."
+    ],
+    "hours": "Wechselnde Schichten, frühmorgens, nachts, am Wochenende und an Feiertagen."
+  },
+  {
+    "id": "bauingenieur",
+    "title": "Bauingenieur/in",
+    "category": "Infrastruktur und Kultur",
+    "description": "Du planst sichere Gebäude, Straßen und Brücken. Du berechnest, was sie tragen müssen.",
+    "tasks": [
+      "Tragwerke berechnen",
+      "Bauabläufe planen",
+      "Qualität kontrollieren"
+    ],
+    "environment": [
+      "Büro und Baustelle",
+      "Technik"
+    ],
+    "training": {
+      "years": 3.5,
+      "path": "Bachelorstudium häufig 6 bis 7 Semester; Master möglich."
+    },
+    "scores": {
+      "learning": 9,
+      "physical": 3,
+      "mental": 8,
+      "future": 8
+    },
+    "challenge": "Fehler haben Folgen; Kosten und Termine müssen passen.",
+    "joy": "Deine Bauwerke nutzen viele Menschen.",
+    "tryIt": "Baue eine Papierbrücke und teste sie nur mit leichten Spielsteinen.",
+    "imageQuery": "civil engineer construction site",
+    "futureReason": "Instandhaltung schafft Bedarf; KI hilft bei Berechnungen, Verantwortung bleibt.",
+    "sourceTitle": "Ingenieur/in - Bau",
+    "dkz": 59332,
+    "kldb": "B 31104",
+    "group": "Berufe in der Bauplanung & -überwachung (ohne Spezialisierung) - hoch komplexe Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/59332",
+      "group": "Berufe in der Bauplanung & -überwachung (ohne Spezialisierung) - hoch komplexe Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 6038,
+    "salaryCapped": false,
+    "employed": 48207,
+    "gender": {
+      "men": 37006,
+      "women": 11201
+    },
+    "demand": null,
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/59332",
+    "image": {
+      "kind": "generated",
+      "path": "images/bauingenieur.webp",
+      "title": "Beispielhafte Tätigkeit: Bauingenieur/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Bauingenieur/in",
+      "width": 768,
+      "height": 512,
+      "version": "576b53496cae"
+    },
+    "day": [
+      "Du sichtest Pläne und besprichst technische Fragen.",
+      "Du berechnest ein Tragwerk oder prüfst die Ausführung auf der Baustelle.",
+      "Du dokumentierst Ergebnisse und stimmst Änderungen ab."
+    ],
+    "hours": "Meist tagsüber; Baustellen und Projekttermine bestimmen den Rhythmus."
+  },
+  {
+    "id": "lkw",
+    "title": "Berufskraftfahrer/in im Güterverkehr",
+    "category": "Infrastruktur und Kultur",
+    "description": "Du transportierst Waren mit einem Lastwagen. Du sicherst die Ladung und planst sichere Fahrten.",
+    "tasks": [
+      "Fahrzeug prüfen",
+      "Ladung sichern",
+      "Waren transportieren"
+    ],
+    "environment": [
+      "Straße",
+      "Unterwegs"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung mit Fahrerlaubnis- und Qualifikationsvoraussetzungen."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 5,
+      "mental": 8,
+      "future": 6
+    },
+    "challenge": "Langes Sitzen, Verkehr und Zeitdruck können belasten.",
+    "joy": "Du bringst wichtige Waren ans Ziel.",
+    "tryIt": "Plane eine Lieferroute mit Pausen auf einer selbst gezeichneten Karte.",
+    "imageQuery": "truck driver loading truck",
+    "futureReason": "Transport bleibt nötig; autonomes Fahren kann Aufgaben verändern, Zeitpunkt unsicher.",
+    "sourceTitle": "Berufskraftfahrer/in",
+    "dkz": 14717,
+    "kldb": "B 52122",
+    "group": "Berufskraftfahrer/innen (Güterverkehr/LKW) - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/14717",
+      "group": "Berufskraftfahrer/innen (Güterverkehr/LKW) - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3196,
+    "salaryCapped": false,
+    "employed": 476271,
+    "gender": {
+      "men": 466988,
+      "women": 9283
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 11768,
+      "employees": 534930,
+      "perHundred": 2.199914007440226,
+      "group": "Berufskraftfahrer/innen (Güterverkehr/LKW)",
+      "source": "https://job-futuromat.iab.de/?job=14717"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/14717",
+    "image": {
+      "kind": "generated",
+      "path": "images/lkw.webp",
+      "title": "Beispielhafte Tätigkeit: Berufskraftfahrer/in im Güterverkehr",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Berufskraftfahrer/in im Güterverkehr",
+      "width": 768,
+      "height": 512,
+      "version": "92a2bc1f4b78"
+    },
+    "day": [
+      "Du prüfst Fahrzeug, Route und Sicherung der Ladung.",
+      "Du transportierst Waren und hältst die vorgeschriebenen Pausen ein.",
+      "Du übergibst die Lieferung und dokumentierst den Transport."
+    ],
+    "hours": "Je nach Nah- oder Fernverkehr wechselnde Zeiten, teils nachts und mehrtägig unterwegs."
+  },
+  {
+    "id": "lager",
+    "title": "Fachkraft für Lagerlogistik",
+    "category": "Infrastruktur und Kultur",
+    "description": "Du sorgst für Waren am richtigen Platz. Du kontrollierst Lieferungen und organisierst den Versand.",
+    "tasks": [
+      "Lieferungen prüfen",
+      "Waren einlagern",
+      "Versand vorbereiten"
+    ],
+    "environment": [
+      "Lagerhalle",
+      "Bewegung"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 5,
+      "physical": 7,
+      "mental": 6,
+      "future": 6
+    },
+    "challenge": "Heben, Schichtarbeit und genaue Termine können belasten.",
+    "joy": "Du behältst für andere den Überblick.",
+    "tryIt": "Sortiere Spielsachen nach einem Lagersystem mit Bestandsliste.",
+    "imageQuery": "warehouse worker picking",
+    "futureReason": "Robotik automatisiert Transport; Kontrolle und Organisation bleiben mit veränderten Aufgaben.",
+    "sourceTitle": "Fachkraft - Lagerlogistik",
+    "dkz": 27449,
+    "kldb": "B 51312",
+    "group": "Berufe in der Lagerwirtschaft - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/27449",
+      "group": "Berufe in der Lagerwirtschaft - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3382,
+    "salaryCapped": false,
+    "employed": 378157,
+    "gender": {
+      "men": 322890,
+      "women": 55267
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 17181,
+      "employees": 484694,
+      "perHundred": 3.5447106834415116,
+      "group": "Fachkräfte in der Lagerwirtschaft",
+      "source": "https://job-futuromat.iab.de/?job=27449"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/27449",
+    "image": {
+      "kind": "generated",
+      "path": "images/lager.webp",
+      "title": "Beispielhafte Tätigkeit: Fachkraft für Lagerlogistik",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Fachkraft für Lagerlogistik",
+      "width": 768,
+      "height": 512,
+      "version": "005c03894979"
+    },
+    "day": [
+      "Du prüfst ankommende Lieferungen auf Menge und Zustand.",
+      "Du lagerst Waren ein und stellst Bestellungen zusammen.",
+      "Du bereitest Sendungen vor und aktualisierst Bestandsdaten."
+    ],
+    "hours": "Je nach Betrieb tagsüber oder im Schichtdienst, teilweise samstags."
+  },
+  {
+    "id": "bibliothek",
+    "title": "Fachangestellte/r für Medien- und Informationsdienste – Bibliothek",
+    "category": "Infrastruktur und Kultur",
+    "description": "Du hilfst Menschen, Bücher und Informationen zu finden. Du ordnest Medien und organisierst die Ausleihe.",
+    "tasks": [
+      "Medien erfassen",
+      "Menschen beraten",
+      "Ausleihe organisieren"
+    ],
+    "environment": [
+      "Bibliothek",
+      "Informationen"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung, Fachrichtung Bibliothek."
+    },
+    "scores": {
+      "learning": 6,
+      "physical": 3,
+      "mental": 5,
+      "future": 6
+    },
+    "challenge": "Ordnung und Daten müssen stimmen; Routineverwaltung gehört dazu.",
+    "joy": "Du machst Wissen zugänglich.",
+    "tryIt": "Ordne zehn Bücher und erkläre dein Suchsystem.",
+    "imageQuery": "librarian helping library",
+    "futureReason": "KI und Selbstverbuchung verändern Recherche; Beratung und Bildungsangebote bleiben wichtig.",
+    "sourceTitle": "Fachangestellte/r - Medien- und Informationsdienste - Bibliothek",
+    "dkz": 8326,
+    "kldb": "B 73322",
+    "group": "Berufe im Bibliothekswesen - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/8326",
+      "group": "Berufe im Bibliothekswesen - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4114,
+    "salaryCapped": false,
+    "employed": 4701,
+    "gender": {
+      "men": 1078,
+      "women": 3623
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 123,
+      "employees": 10746,
+      "perHundred": 1.1446119486320492,
+      "group": "Fachkräfte im Bibliothekswesen",
+      "source": "https://job-futuromat.iab.de/?job=8326"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/8326",
+    "image": {
+      "kind": "generated",
+      "path": "images/bibliothek.webp",
+      "title": "Beispielhafte Tätigkeit: Fachangestellte/r für Medien- und Informationsdienste – Bibliothek",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Fachangestellte/r für Medien- und Informationsdienste – Bibliothek",
+      "width": 768,
+      "height": 512,
+      "version": "4ee10aebc64e"
+    },
+    "day": [
+      "Du prüfst Rückgaben und sortierst Medien.",
+      "Du hilfst Menschen bei der Suche und bearbeitest Ausleihen.",
+      "Du erfasst neue Medien und bereitest Angebote vor."
+    ],
+    "hours": "Zu Bibliotheksöffnungszeiten, teilweise abends oder samstags."
+  },
+  {
+    "id": "veranstaltung",
+    "title": "Veranstaltungstechniker/in",
+    "category": "Infrastruktur und Kultur",
+    "description": "Du sorgst bei Veranstaltungen für Licht und Ton. Du baust sichere Technik auf und betreust sie.",
+    "tasks": [
+      "Ton einrichten",
+      "Licht programmieren",
+      "Technik aufbauen"
+    ],
+    "environment": [
+      "Bühne",
+      "Abende"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige Ausbildung zur Fachkraft für Veranstaltungstechnik."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 7,
+      "mental": 8,
+      "future": 7
+    },
+    "challenge": "Späte Zeiten, schwere Technik und feste Starttermine erzeugen Druck.",
+    "joy": "Du machst besondere Erlebnisse möglich.",
+    "tryIt": "Plane ein Schattentheater mit einer sicheren Taschenlampe.",
+    "imageQuery": "stage technician lighting sound",
+    "futureReason": "Liveveranstaltungen brauchen Aufbau vor Ort; KI unterstützt Steuerung, Budgets schwanken.",
+    "sourceTitle": "Fachkraft - Veranstaltungstechnik",
+    "dkz": 129456,
+    "kldb": "B 94512",
+    "group": "Berufe in der Veranstaltungs- & Bühnentechnik - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/129456",
+      "group": "Berufe in der Veranstaltungs- & Bühnentechnik - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 3945,
+    "salaryCapped": false,
+    "employed": 8651,
+    "gender": {
+      "men": 7220,
+      "women": 1431
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 465,
+      "employees": 14849,
+      "perHundred": 3.1315240083507305,
+      "group": "Fachkräfte in der Veranstaltungs- und Bühnentechnik",
+      "source": "https://job-futuromat.iab.de/?job=129456"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/129456",
+    "image": {
+      "kind": "generated",
+      "path": "images/veranstaltung.webp",
+      "title": "Beispielhafte Tätigkeit: Veranstaltungstechniker/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Veranstaltungstechniker/in",
+      "width": 768,
+      "height": 512,
+      "version": "f08a52f9d230"
+    },
+    "day": [
+      "Du besprichst Ablauf und Sicherheitsanforderungen.",
+      "Du baust Licht und Ton auf und führst einen Technikcheck durch.",
+      "Du betreust die Veranstaltung und baust danach sicher ab."
+    ],
+    "hours": "Oft abends, nachts und am Wochenende, mit wechselnden Einsatzorten."
+  },
+  {
+    "id": "polizei",
+    "title": "Polizist/in",
+    "category": "Sicherheit und Dienstleistungen",
+    "description": "Du hilfst Menschen in Gefahr und setzt Regeln durch. Du klärst Vorfälle auf und schützt die Öffentlichkeit.",
+    "tasks": [
+      "Einsätze bearbeiten",
+      "Vorfälle ermitteln",
+      "Menschen schützen"
+    ],
+    "environment": [
+      "Dienststelle und unterwegs",
+      "Schichtdienst"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Je nach Bundesland Ausbildung oder duales Studium, häufig 2,5 bis 3 Jahre; Beispiel 3 Jahre."
+    },
+    "scores": {
+      "learning": 8,
+      "physical": 7,
+      "mental": 10,
+      "future": 8
+    },
+    "challenge": "Konflikte und Gefahr verlangen Ruhe und Verantwortung.",
+    "joy": "Du hilfst Menschen in schwierigen Momenten.",
+    "tryIt": "Besprich einen erfundenen Notruf mit Erwachsenen; keine echte Notrufnummer wählen.",
+    "imageQuery": "police officer working Germany",
+    "futureReason": "Sicherheit bleibt staatliche Aufgabe; KI hilft bei Auswertung, Entscheidungen brauchen Verantwortung.",
+    "sourceTitle": "Polizeivollzugsbeamter/-beamtin (gehobener nichttechnischer Dienst)",
+    "dkz": 8157,
+    "kldb": "B 53213",
+    "group": "Berufe im Polizeivollzugsdienst - komplexe Spezialistentätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/8157",
+      "group": "Berufe im Polizeivollzugsdienst - komplexe Spezialistentätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": null,
+    "salaryCapped": false,
+    "employed": null,
+    "gender": null,
+    "demand": null,
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/8157",
+    "image": {
+      "kind": "generated",
+      "path": "images/polizei.webp",
+      "title": "Beispielhafte Tätigkeit: Polizist/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Polizist/in",
+      "width": 768,
+      "height": 512,
+      "version": "309a29f377b2"
+    },
+    "day": [
+      "Du besprichst die Lage und übernimmst die Ausrüstung.",
+      "Du bearbeitest Einsätze oder ermittelst zu einem Vorfall.",
+      "Du dokumentierst Vorgänge und gibst Informationen weiter."
+    ],
+    "hours": "Je nach Einsatzbereich Schichtdienst, Wochenenden und Feiertage."
+  },
+  {
+    "id": "feuerwehr",
+    "title": "Berufsfeuerwehrmann/-frau",
+    "category": "Sicherheit und Dienstleistungen",
+    "description": "Du rettest Menschen und bekämpfst Brände. Du trainierst und hältst Geräte bereit.",
+    "tasks": [
+      "Menschen retten",
+      "Brände bekämpfen",
+      "Ausrüstung prüfen"
+    ],
+    "environment": [
+      "Feuerwache und Einsatzorte",
+      "Team"
+    ],
+    "training": {
+      "years": 4.5,
+      "path": "Häufig Berufsausbildung plus 18 bis 24 Monate Vorbereitungsdienst; Beispiel 3 plus 1,5 Jahre. Direkte Einstiege unterscheiden sich."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 10,
+      "mental": 10,
+      "future": 9
+    },
+    "challenge": "Hitze, Gefahr und belastende Einsätze verlangen Training.",
+    "joy": "Du bewältigst Gefahren gemeinsam mit anderen.",
+    "tryIt": "Zeichne mit Erwachsenen Fluchtwege; übe niemals mit Feuer.",
+    "imageQuery": "firefighter training hose",
+    "futureReason": "Unvorhersehbare Rettungslagen brauchen Teams; Technik unterstützt Schutz und Erkundung.",
+    "sourceTitle": "Beamter/Beamtin - Feuerwehrtechnischer Dienst (mittlerer technischer Dienst)",
+    "dkz": 8176,
+    "kldb": "B 53132",
+    "group": "Berufe im Brandschutz - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/8176",
+      "group": "Berufe im Brandschutz - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 5325,
+    "salaryCapped": false,
+    "employed": 11903,
+    "gender": null,
+    "demand": null,
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/8176",
+    "image": {
+      "kind": "generated",
+      "path": "images/feuerwehr.webp",
+      "title": "Beispielhafte Tätigkeit: Berufsfeuerwehrmann/-frau",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Berufsfeuerwehrmann/-frau",
+      "width": 768,
+      "height": 512,
+      "version": "3ddf6c553ad4"
+    },
+    "day": [
+      "Du prüfst Fahrzeuge und Geräte mit deinem Team.",
+      "Du trainierst oder rückst bei einem Alarm zum Einsatz aus.",
+      "Du stellst die Einsatzbereitschaft wieder her und besprichst den Einsatz."
+    ],
+    "hours": "Schichtdienst, teils lange Bereitschaftsschichten, auch nachts und an Feiertagen."
+  },
+  {
+    "id": "rettung",
+    "title": "Notfallsanitäter/in",
+    "category": "Sicherheit und Dienstleistungen",
+    "description": "Du versorgst Menschen in medizinischen Notfällen. Du betreust sie bis zur weiteren Behandlung.",
+    "tasks": [
+      "Notfälle einschätzen",
+      "Erstversorgung durchführen",
+      "Menschen transportieren"
+    ],
+    "environment": [
+      "Rettungswagen und Einsatzorte",
+      "Menschen"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige Ausbildung mit Schule, Rettungswache und Krankenhaus."
+    },
+    "scores": {
+      "learning": 8,
+      "physical": 8,
+      "mental": 10,
+      "future": 9
+    },
+    "challenge": "Zeitdruck, Tragen und dramatische Situationen können belasten.",
+    "joy": "Du hilfst genau dann, wenn es dringend ist.",
+    "tryIt": "Erstelle mit Erwachsenen eine Liste wichtiger Notfallinformationen; keine Behandlung ausprobieren.",
+    "imageQuery": "paramedic ambulance patient",
+    "futureReason": "Notfallversorgung braucht praktische Hilfe; digitale Systeme unterstützen Entscheidungen.",
+    "sourceTitle": "Notfallsanitäter/in",
+    "dkz": 122461,
+    "kldb": "B 81342",
+    "group": "Berufe im Rettungsdienst - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/122461",
+      "group": "Berufe im Rettungsdienst - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4447,
+    "salaryCapped": false,
+    "employed": 61261,
+    "gender": {
+      "men": 44479,
+      "women": 16782
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 1104,
+      "employees": 85330,
+      "perHundred": 1.2938005390835579,
+      "group": "Fachkräfte im Rettungsdienst",
+      "source": "https://job-futuromat.iab.de/?job=122461"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/122461",
+    "image": {
+      "kind": "generated",
+      "path": "images/rettung.webp",
+      "title": "Beispielhafte Tätigkeit: Notfallsanitäter/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Notfallsanitäter/in",
+      "width": 768,
+      "height": 512,
+      "version": "b8225aa20015"
+    },
+    "day": [
+      "Du kontrollierst Fahrzeug und medizinische Ausrüstung.",
+      "Du versorgst Menschen im Einsatz und transportierst sie bei Bedarf.",
+      "Du dokumentierst den Einsatz und machst das Fahrzeug wieder bereit."
+    ],
+    "hours": "Wechselnde Schichten rund um die Uhr, auch am Wochenende."
+  },
+  {
+    "id": "verwaltung",
+    "title": "Verwaltungsfachangestellte/r",
+    "category": "Sicherheit und Dienstleistungen",
+    "description": "Du hilfst bei öffentlichen Aufgaben. Du bearbeitest Anträge und erklärst benötigte Unterlagen.",
+    "tasks": [
+      "Anträge bearbeiten",
+      "Auskünfte geben",
+      "Vorschriften anwenden"
+    ],
+    "environment": [
+      "Behörde",
+      "Büro"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung mit verschiedenen Fachrichtungen."
+    },
+    "scores": {
+      "learning": 7,
+      "physical": 2,
+      "mental": 6,
+      "future": 7
+    },
+    "challenge": "Regeln können kompliziert sein; nicht jeder Wunsch ist erfüllbar.",
+    "joy": "Du machst öffentliche Leistungen zugänglich.",
+    "tryIt": "Entwirf einen verständlichen Anmeldebogen für eine Schul-AG.",
+    "imageQuery": "public administration office worker",
+    "futureReason": "Digitale Anträge reduzieren Routinen; Sonderfälle und Bürgerkontakt bleiben.",
+    "sourceTitle": "Verwaltungsfachangestellte/r - Kommunalverwaltung",
+    "dkz": 7896,
+    "kldb": "B 73202",
+    "group": "Berufe in der öffentlichen Verwaltung (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/7896",
+      "group": "Berufe in der öffentlichen Verwaltung (ohne Spezialisierung) - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 4447,
+    "salaryCapped": false,
+    "employed": 272880,
+    "gender": {
+      "men": 91533,
+      "women": 181347
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 3748,
+      "employees": 482849,
+      "perHundred": 0.776226107955075,
+      "group": "Fachkräfte in der öffentlichen Verwaltung (ohne Spezialisierung)",
+      "source": "https://job-futuromat.iab.de/?job=7896"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/7896",
+    "image": {
+      "kind": "generated",
+      "path": "images/verwaltung.webp",
+      "title": "Beispielhafte Tätigkeit: Verwaltungsfachangestellte/r",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Verwaltungsfachangestellte/r",
+      "width": 768,
+      "height": 512,
+      "version": "d31b1d7c2327"
+    },
+    "day": [
+      "Du sichtest neue Anträge und anstehende Termine.",
+      "Du prüfst Unterlagen und berätst Menschen zu ihrem Anliegen.",
+      "Du bereitest Entscheidungen vor und dokumentierst die Bearbeitung."
+    ],
+    "hours": "Überwiegend werktags zu Büro- und Sprechzeiten."
+  },
+  {
+    "id": "friseur",
+    "title": "Friseur/in",
+    "category": "Sicherheit und Dienstleistungen",
+    "description": "Du schneidest und gestaltest Haare. Du besprichst Wünsche und erklärst die Pflege.",
+    "tasks": [
+      "Menschen beraten",
+      "Haare schneiden",
+      "Frisuren gestalten"
+    ],
+    "environment": [
+      "Salon",
+      "Handwerk"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 5,
+      "physical": 6,
+      "mental": 5,
+      "future": 7
+    },
+    "challenge": "Langes Stehen und Hautschutz bestimmen den Alltag.",
+    "joy": "Du machst Menschen mit einer Frisur Freude.",
+    "tryIt": "Zeichne drei Frisuren; schneide keine echten Haare.",
+    "imageQuery": "hairdresser cutting hair salon",
+    "futureReason": "Individuelle Handarbeit ist schwer automatisierbar; Kaufkraft beeinflusst den Betrieb.",
+    "sourceTitle": "Friseur/in",
+    "dkz": 9907,
+    "kldb": "B 82312",
+    "group": "Berufe im Friseurgewerbe - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/9907",
+      "group": "Berufe im Friseurgewerbe - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 2236,
+    "salaryCapped": false,
+    "employed": 36301,
+    "gender": {
+      "men": 7885,
+      "women": 28416
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 3318,
+      "employees": 108264,
+      "perHundred": 3.0647306583906007,
+      "group": "Fachkräfte im Friseurgewerbe",
+      "source": "https://job-futuromat.iab.de/?job=9907"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/9907",
+    "image": {
+      "kind": "generated",
+      "path": "images/friseur.webp",
+      "title": "Beispielhafte Tätigkeit: Friseur/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Friseur/in",
+      "width": 768,
+      "height": 512,
+      "version": "8267296d14d4"
+    },
+    "day": [
+      "Du bereitest Arbeitsplatz und vereinbarte Termine vor.",
+      "Du besprichst Wünsche und schneidest oder gestaltest Haare.",
+      "Du erklärst die Pflege und reinigst die Arbeitsmittel."
+    ],
+    "hours": "Zu Salonöffnungszeiten, häufig samstags und teilweise abends."
+  },
+  {
+    "id": "reinigung",
+    "title": "Gebäudereiniger/in",
+    "category": "Sicherheit und Dienstleistungen",
+    "description": "Du hältst Gebäude sauber und pflegst Oberflächen. Du wählst passende Verfahren zum Schutz von Menschen und Materialien.",
+    "tasks": [
+      "Oberflächen reinigen",
+      "Geräte bedienen",
+      "Hygiene sichern"
+    ],
+    "environment": [
+      "Gebäude",
+      "Frühe oder späte Zeiten"
+    ],
+    "training": {
+      "years": 3,
+      "path": "Dreijährige duale Ausbildung."
+    },
+    "scores": {
+      "learning": 5,
+      "physical": 8,
+      "mental": 5,
+      "future": 7
+    },
+    "challenge": "Körperliche Arbeit und Reinigungsmittel verlangen Schutz.",
+    "joy": "Du sorgst für angenehme und hygienische Räume.",
+    "tryIt": "Plane die Schreibtischreinigung nur mit einem feuchten Tuch, ohne Chemikalien.",
+    "imageQuery": "cleaner cleaning floor",
+    "futureReason": "Roboter übernehmen Standardflächen; wechselnde Umgebungen brauchen Menschen.",
+    "sourceTitle": "Gebäudereiniger/in",
+    "dkz": 10233,
+    "kldb": "B 54112",
+    "group": "Berufe in der Gebäudereinigung - fachlich ausgerichtete Tätigkeiten",
+    "evidence": {
+      "year": 2025,
+      "retrieved": "2026-09-13",
+      "source": "https://web.arbeitsagentur.de/entgeltatlas/beruf/10233",
+      "group": "Berufe in der Gebäudereinigung - fachlich ausgerichtete Tätigkeiten",
+      "scope": "Sozialversicherungspflichtig Vollzeitbeschäftigte der Berufsgruppe (ohne Auszubildende). Teilzeit, Selbstständige und Beamte sind nicht enthalten."
+    },
+    "salary": 2776,
+    "salaryCapped": false,
+    "employed": 40312,
+    "gender": {
+      "men": 27838,
+      "women": 12474
+    },
+    "demand": {
+      "year": 2024,
+      "offers": 4594,
+      "employees": 107028,
+      "perHundred": 4.292334716149045,
+      "group": "Fachkräfte in der Gebäudereinigung",
+      "source": "https://job-futuromat.iab.de/?job=10233"
+    },
+    "source": "https://web.arbeitsagentur.de/berufenet/beruf/10233",
+    "image": {
+      "kind": "generated",
+      "path": "images/reinigung.webp",
+      "title": "Beispielhafte Tätigkeit: Gebäudereiniger/in",
+      "author": "OpenAI Imagegen",
+      "generated": "2026-09-13",
+      "alt": "KI-generiertes Tätigkeitsbild: Gebäudereiniger/in",
+      "width": 768,
+      "height": 512,
+      "version": "b0e47b5054fc"
+    },
+    "day": [
+      "Du prüfst Reinigungsplan, Geräte und Schutzmaßnahmen.",
+      "Du reinigst geeignete Flächen mit passenden Verfahren.",
+      "Du kontrollierst das Ergebnis und pflegst die Geräte."
+    ],
+    "hours": "Oft vor oder nach Gebäudenutzung, also frühmorgens oder abends; je nach Objekt auch tagsüber."
+  }
+]

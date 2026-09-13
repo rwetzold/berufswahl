@@ -1,7 +1,7 @@
-import { choosePreferred, repairSessionWithoutHistory } from './ranking.js';
+import { choosePreferred, repairSessionWithoutHistory } from "./ranking.js";
 
-export function chooseWithHistory(session, history, preferredSongId) {
-  const nextSession = choosePreferred(session, preferredSongId);
+export function chooseWithHistory(session, history, preferredCareerId) {
+  const nextSession = choosePreferred(session, preferredCareerId);
 
   if (nextSession === session) {
     return {

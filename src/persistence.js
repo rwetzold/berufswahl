@@ -1,127 +1,112 @@
-export const SESSION_STORAGE_KEY = 'berufswahl-ranking-session';
-export const SELECTED_SONG_SET_STORAGE_KEY = 'berufswahl-ranking-selected-set';
-const DEFAULT_SONG_SET_ID = '2026';
-
-export function saveSessionState(storage, session, songSetId = DEFAULT_SONG_SET_ID, history = []) {
-  storage.setItem(
-    getSessionStorageKey(songSetId),
-    JSON.stringify({
-      ...serializeSession(session),
-      history: history.map((historySession) => serializeSession(historySession)),
-    }),
-  );
-}
-
-export function loadSessionState(storage, availableSongs, songSetId = DEFAULT_SONG_SET_ID) {
-  return deserializeSession(loadStoredState(storage, songSetId), availableSongs);
-}
-
-export function loadSessionHistory(storage, availableSongs, songSetId = DEFAULT_SONG_SET_ID) {
-  const parsed = loadStoredState(storage, songSetId);
-
-  if (!Array.isArray(parsed?.history)) {
-    return [];
-  }
-
-  return parsed.history
-    .map((historySession) => deserializeSession(historySession, availableSongs))
-    .filter(Boolean);
-}
-
-function loadStoredState(storage, songSetId) {
-  const rawState =
-    storage.getItem(getSessionStorageKey(songSetId)) ??
-    (songSetId === DEFAULT_SONG_SET_ID ? storage.getItem(SESSION_STORAGE_KEY) : null);
-
-  if (!rawState) {
-    return null;
-  }
-
+export const SESSION_STORAGE_KEY = "berufswahl-careers-v1";
+export function saveProgress(storage, session, history) {
   try {
-    return JSON.parse(rawState);
+    storage.setItem(
+      SESSION_STORAGE_KEY,
+      JSON.stringify({
+        version: 1,
+        session: serialize(session),
+        history: history.map(serialize),
+      }),
+    );
+    return true;
+  } catch {
+    return false;
+  }
+}
+export function loadProgress(storage, available) {
+  try {
+    const data = JSON.parse(storage.getItem(SESSION_STORAGE_KEY));
+    if (data?.version !== 1 || !Array.isArray(data.history)) return null;
+    const session = deserialize(data.session, available);
+    const history = data.history.map((s) => deserialize(s, available));
+    if (!session || history.some((s) => !s)) return null;
+    return { session, history };
   } catch {
     return null;
   }
 }
-
-export function clearSessionState(storage, songSetId = DEFAULT_SONG_SET_ID) {
-  storage.removeItem?.(getSessionStorageKey(songSetId));
-
-  if (songSetId === DEFAULT_SONG_SET_ID) {
-    storage.removeItem?.(SESSION_STORAGE_KEY);
-  }
-}
-
-export function saveSelectedSongSetId(storage, songSetId) {
-  storage.setItem(SELECTED_SONG_SET_STORAGE_KEY, songSetId);
-}
-
-export function loadSelectedSongSetId(storage) {
-  return storage.getItem(SELECTED_SONG_SET_STORAGE_KEY) ?? DEFAULT_SONG_SET_ID;
-}
-
-function getSessionStorageKey(songSetId) {
-  return `${SESSION_STORAGE_KEY}:${songSetId}`;
-}
-
-function serializeSession(session) {
+function serialize(s) {
   return {
-    songIds: session.songs.map((song) => song.id),
-    rankedIds: session.ranked.map((song) => song.id),
-    candidateIndex: session.candidateIndex,
-    insertion: session.insertion,
-    comparisons: session.comparisons,
-    isComplete: session.isComplete,
-    currentPairIds: session.currentPair?.map((song) => song.id) ?? null,
+    ...s,
+    careers: s.careers.map((c) => c.id),
+    ranked: s.ranked.map((c) => c.id),
+    currentPair: s.currentPair?.map((c) => c.id) ?? null,
   };
 }
-
-function deserializeSession(parsed, availableSongs) {
-  if (!parsed) {
+function deserialize(s, available) {
+  if (!s || !Array.isArray(s.careers) || !Array.isArray(s.ranked)) return null;
+  const map = new Map(available.map((c) => [c.id, c]));
+  const valid = (ids) =>
+    Array.isArray(ids) &&
+    ids.every((id) => map.has(id)) &&
+    new Set(ids).size === ids.length;
+  if (
+    !valid(s.careers) ||
+    s.careers.length !== available.length ||
+    !valid(s.ranked)
+  )
     return null;
-  }
-
-  const songs = resolveSongs(parsed.songIds, availableSongs);
-
-  if (!songs) {
+  if (
+    !Number.isInteger(s.comparisons) ||
+    s.comparisons < 0 ||
+    !Number.isInteger(s.candidateIndex) ||
+    s.candidateIndex < 0 ||
+    s.candidateIndex > s.careers.length
+  )
     return null;
-  }
-
-  const ranked = resolveSongs(parsed.rankedIds, songs);
-  const currentPair = parsed.currentPairIds ? resolveSongs(parsed.currentPairIds, songs) : null;
-
-  if (!ranked || (parsed.currentPairIds && !currentPair)) {
+  if (typeof s.isComplete !== "boolean") return null;
+  if (
+    s.isComplete
+      ? s.ranked.length !== s.careers.length || s.currentPair !== null
+      : !valid(s.currentPair) || s.currentPair.length !== 2
+  )
     return null;
+  if (
+    s.isComplete &&
+    (s.candidateIndex !== s.careers.length || s.insertion !== null)
+  )
+    return null;
+  if (
+    !s.isComplete &&
+    s.ranked.length === 0 &&
+    (s.candidateIndex !== 2 ||
+      s.comparisons !== 0 ||
+      s.insertion !== null ||
+      s.currentPair[0] !== s.careers[0] ||
+      s.currentPair[1] !== s.careers[1])
+  )
+    return null;
+  if (!s.isComplete && s.ranked.length > 0) {
+    if (
+      s.candidateIndex !== s.ranked.length ||
+      s.ranked.includes(s.careers[s.candidateIndex])
+    )
+      return null;
+    if (
+      s.ranked.some((id) => !s.careers.slice(0, s.candidateIndex).includes(id))
+    )
+      return null;
+    const p = s.insertion;
+    if (
+      !p ||
+      ![p.low, p.high, p.mid].every(Number.isInteger) ||
+      p.low < 0 ||
+      p.high > s.ranked.length ||
+      p.low > p.mid ||
+      p.mid >= p.high
+    )
+      return null;
+    if (
+      s.currentPair[0] !== s.careers[s.candidateIndex] ||
+      s.currentPair[1] !== s.ranked[p.mid]
+    )
+      return null;
   }
-
   return {
-    songs,
-    ranked,
-    candidateIndex: parsed.candidateIndex,
-    insertion: parsed.insertion ?? null,
-    comparisons: parsed.comparisons ?? 0,
-    isComplete: Boolean(parsed.isComplete),
-    currentPair,
+    ...s,
+    careers: s.careers.map((id) => map.get(id)),
+    ranked: s.ranked.map((id) => map.get(id)),
+    currentPair: s.currentPair?.map((id) => map.get(id)) ?? null,
   };
-}
-
-function resolveSongs(ids, availableSongs) {
-  if (!Array.isArray(ids) || !Array.isArray(availableSongs)) {
-    return null;
-  }
-
-  const songById = new Map(availableSongs.map((song) => [song.id, song]));
-  availableSongs.forEach((song) => {
-    if (song.legacyId) {
-      songById.set(song.legacyId, song);
-    }
-  });
-
-  const songs = ids.map((id) => songById.get(id));
-
-  if (songs.some((song) => !song)) {
-    return null;
-  }
-
-  return songs;
 }
