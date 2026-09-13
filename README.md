@@ -1,69 +1,50 @@
-# Eurovision Final-Playlist
+# Berufswahl
 
-Build your personal Eurovision ranking by choosing your favorite song in head-to-head duels.
+Grundlage für eine Anwendung zur Berufswahl von Schülern: Durch paarweise Präferenzentscheidungen entsteht schrittweise eine persönliche Rangliste.
 
-**[Open the full app](https://rwetzold.github.io/eurovision-playlist/)** — free to use in your browser, with no installation or account required. The app interface is in German.
+## Stand der Vorbereitung
 
-![Eurovision Playlist showing a duel between Monroe's Regarde ! and JJ's Wasted Love in the combined 2025 and 2026 ranking](docs/screenshot.png)
+Dieses eigenständige Repository wurde aus [Eurovision Playlist](https://github.com/rwetzold/eurovision-playlist) übernommen und behält dessen Git-Historie. **Die Oberfläche und Eurovision-Songdaten sind vorläufige Beispielinhalte.** Berufskategorien, Texte und die Gestaltung für Schüler werden im nächsten Schritt gemeinsam festgelegt; die Anwendung bietet derzeit noch keine Berufswahlinhalte.
 
-## How it works
+Der vorhandene Vergleichsmechanismus einschließlich Rückgängig-Funktion, Neustart und lokal gespeicherten Ranglisten bleibt funktionsfähig. Dieses Projekt verwendet eigene Browserspeicherschlüssel mit dem Präfix `berufswahl-ranking-`; Eurovision-Spielstände werden weder übernommen noch verändert.
 
-- Rank the 2025 finalists, the 2026 finalists, or all 51 songs together.
-- Choose the song you prefer in each duel to build your personal ordered playlist.
-- Play embedded YouTube videos while comparing songs and in your finished playlist.
-- Undo a choice with **Schritt zurück**, or reset the selected ranking with **Von vorn anfangen**.
-- Return later: progress and undo history are saved separately for each song selection in your browser.
+## Lokal starten
 
-Your playlist lives in the app; it does not create a playlist in a YouTube account. Progress is stored in local storage on the current browser and device, and is lost if you clear site data. Local development and the hosted app have separate saved progress.
-
-## Run locally
-
-Install [Node.js](https://nodejs.org/) 24 and Git, then run:
+Voraussetzungen: Node.js 24 und Git.
 
 ```sh
-git clone https://github.com/rwetzold/eurovision-playlist.git
-cd eurovision-playlist
+git clone https://github.com/rwetzold/berufswahl.git
+cd berufswahl
 npm ci
 npm run dev
 ```
 
-Open the local URL printed by Vite. No environment variables, API keys, or backend setup are needed.
+Die im Terminal angezeigte lokale URL öffnen. Es werden keine API-Schlüssel, Umgebungsvariablen oder Backend-Dienste benötigt.
 
 ```sh
-npm test          # Run the test suite
-npm run build    # Build the static site into dist/
-npm run preview  # Serve the production build locally
+npm test
+npm run build
+npm run preview
 ```
 
-Serve the build over HTTP using the preview command or a static host rather than opening the HTML file directly.
+Der Produktionsbuild liegt in `dist/` und muss über HTTP ausgeliefert werden. `dist/` und `node_modules/` werden nicht eingecheckt.
 
-## Deployment
+## Automatische Prüfung und Hosting
 
-GitHub Actions installs the locked dependencies, runs tests, and builds the app for pull requests and pushes to `main`. Successful pushes to `main` deploy the full app to GitHub Pages. You can also run the workflow manually from the Actions tab on `main`.
+GitHub Actions führt bei Pushes auf `main`, Pull Requests gegen `main` und manuellem Start die Installation, Tests und den Build aus. Eine automatische Veröffentlichung ist nicht eingerichtet. Hosting wird nach der Inhaltsbesprechung festgelegt.
 
-For your own fork, enable **Settings → Pages → Build and deployment → Source: GitHub Actions**, enable workflows if needed, and run the workflow on `main`. Update the app and clone links in this README for your account.
+## Technische Grundlage
 
-Other static hosts can run `npm ci && npm run build` and publish `dist/`. Relative asset paths support hosting beneath a subdirectory. Do not commit `dist/` or `node_modules/`.
+Die Anwendung verwendet JavaScript, CSS, Vite und Vitest. `src/ranking.js` enthält den Vergleichsmechanismus, `src/undo.js` die Rückgängig-Funktion und `src/persistence.js` die lokale Speicherung. Oberfläche und Styling liegen in `src/main.js` und `src/styles.css`; die vorläufigen Songdaten stehen in `src/songs.js`. Verhaltenstests liegen in `tests/`.
 
-## Project and contributions
+## Medien und Datenschutz der Beispielanwendung
 
-The app uses plain JavaScript and CSS, [Vite](https://vite.dev/) for development and builds, and [Vitest](https://vitest.dev/) for tests.
+Die Anwendung hat kein Backend und keine Anwendungsanalyse. Entscheidungen werden nur im lokalen Browserspeicher gespeichert. Das Löschen der Browserdaten entfernt den Fortschritt. Die vorläufigen Eurovision-Inhalte laden Vorschaubilder von YouTube; beim Abspielen werden YouTube-Videos eingebettet. Dafür werden Verbindungen zu YouTube aufgebaut. Die Verfügbarkeit hängt unter anderem von Region und Einbettungsrechten ab.
 
-- `src/songs.js`: song metadata, YouTube video IDs, and year selections.
-- `src/main.js` and `src/styles.css`: interface and styling.
-- Other modules in `src/`: ranking, shuffling, undo, persistence, and video URLs.
-- `tests/`: automated behavior tests.
+Das übernommene Eurovision-Beispiel ist ein inoffizielles Fanprojekt ohne Verbindung zum Eurovision Song Contest oder zur EBU. Videos, Vorschaubilder, Songtitel, Künstlernamen und Marken gehören den jeweiligen Rechteinhabern. Die Quellcodelizenz gewährt keine Rechte an Drittmedien, auch nicht am übernommenen Screenshot in `docs/screenshot.png`.
 
-To correct or add song data, edit `src/songs.js`, preserve existing song IDs so saved rankings can resolve them, and update the relevant tests. Open an issue for a bug or suggestion, or submit a pull request with a short explanation and the results of `npm test` and `npm run build`.
+## Urheber und Lizenz
 
-## Media and privacy
+Ursprünglich erstellt von **Robert Wetzold und Anton Wetzold**.
 
-The app has no backend or application analytics. Ranking choices are stored locally. Thumbnails are loaded from YouTube, and clicking a video loads a YouTube privacy-enhanced embed; these requests connect your browser to YouTube services. Internet access is required for videos and thumbnails. Playback depends on regional availability, embedding permissions, and browser settings.
-
-This is an unofficial fan project, not affiliated with or endorsed by the Eurovision Song Contest or the EBU. Videos, thumbnails, song titles, artist names, and trademarks belong to their respective owners. The source-code license does not grant rights to third-party media shown in the app or screenshot.
-
-## Credits and license
-
-Created by **Robert Wetzold and Anton Wetzold**.
-
-The project code is available under the [MIT License](LICENSE).
+Der Quellcode steht unter der [MIT-Lizenz](LICENSE).

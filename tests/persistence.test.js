@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
+  clearSessionState,
   loadSessionHistory,
   loadSelectedSongSetId,
   loadSessionState,
@@ -29,6 +30,33 @@ function createMemoryStorage() {
 }
 
 describe('ranking persistence', () => {
+  it('ignores and preserves Eurovision storage when loading, saving and clearing', () => {
+    const storage = createMemoryStorage();
+    const original = JSON.stringify({
+      songIds: ['a', 'b', 'c'], rankedIds: ['a'], candidateIndex: 1,
+      comparisons: 1, isComplete: false, currentPairIds: ['b', 'a'],
+    });
+    const oldKeys = ['eurovision-ranking-session', 'eurovision-ranking-session:2026'];
+    oldKeys.forEach((key) => storage.setItem(key, original));
+    storage.setItem('eurovision-ranking-selected-set', 'combined');
+
+    expect(loadSessionState(storage, songs)).toBeNull();
+    expect(loadSessionHistory(storage, songs)).toEqual([]);
+    expect(loadSelectedSongSetId(storage)).toBe('2026');
+
+    saveSessionState(storage, {
+      songs, ranked: [songs[0]], candidateIndex: 1, insertion: null,
+      comparisons: 1, isComplete: false, currentPair: [songs[1], songs[0]],
+    });
+    saveSelectedSongSetId(storage, '2025');
+    expect(loadSessionState(storage, songs).ranked).toEqual([songs[0]]);
+    expect(loadSelectedSongSetId(storage)).toBe('2025');
+    clearSessionState(storage);
+    expect(loadSessionState(storage, songs)).toBeNull();
+    oldKeys.forEach((key) => expect(storage.getItem(key)).toBe(original));
+    expect(storage.getItem('eurovision-ranking-selected-set')).toBe('combined');
+  });
+
   it('saves and restores a session using song ids', () => {
     const storage = createMemoryStorage();
     const session = {
@@ -151,7 +179,7 @@ describe('ranking persistence', () => {
   it('loads legacy 2026 sessions saved under the original unscoped key', () => {
     const storage = createMemoryStorage();
     storage.setItem(
-      'eurovision-ranking-session',
+      'berufswahl-ranking-session',
       JSON.stringify({
         songIds: ['a', 'b', 'c'],
         rankedIds: ['b', 'a'],
@@ -176,12 +204,12 @@ describe('ranking persistence', () => {
 
     expect(loadSessionState(storage, songs, '2025')).toBeNull();
 
-    storage.setItem('eurovision-ranking-session:2025', '{"rankedIds":["missing"]}');
+    storage.setItem('berufswahl-ranking-session:2025', '{"rankedIds":["missing"]}');
 
     expect(loadSessionState(storage, songs, '2025')).toBeNull();
 
     storage.setItem(
-      'eurovision-ranking-session:2025',
+      'berufswahl-ranking-session:2025',
       JSON.stringify({
         songIds: ['a', 'b', 'c'],
         rankedIds: ['b', 'a'],

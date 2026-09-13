@@ -1,5 +1,5 @@
-export const SESSION_STORAGE_KEY = 'eurovision-ranking-session';
-export const SELECTED_SONG_SET_STORAGE_KEY = 'eurovision-ranking-selected-set';
+export const SESSION_STORAGE_KEY = 'berufswahl-ranking-session';
+export const SELECTED_SONG_SET_STORAGE_KEY = 'berufswahl-ranking-selected-set';
 const DEFAULT_SONG_SET_ID = '2026';
 
 export function saveSessionState(storage, session, songSetId = DEFAULT_SONG_SET_ID, history = []) {
