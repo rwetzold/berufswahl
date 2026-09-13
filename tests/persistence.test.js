@@ -61,12 +61,12 @@ describe("career progress", () => {
     saveProgress(storage, createRankingSession(careers), []);
     expect(loadProgress(storage, [{ id: "other" }])).toBeNull();
   });
-  it("rejects duplicate ids and invalid insertion windows", () => {
+  it("rejects duplicate ids and cyclic preferences", () => {
     const storage = memory();
     let s = choosePreferred(createRankingSession(careers), "a");
     saveProgress(storage, s, []);
     let data = JSON.parse(storage.getItem(SESSION_STORAGE_KEY));
-    data.session.insertion.mid = 99;
+    data.session.decisions.push(["b", "a"]);
     storage.setItem(SESSION_STORAGE_KEY, JSON.stringify(data));
     expect(loadProgress(storage, careers)).toBeNull();
     data.session.careers = ["a", "a", "c"];
@@ -86,5 +86,67 @@ describe("career progress", () => {
     expect(saveProgress(storage, createRankingSession(careers), [])).toBe(
       false,
     );
+  });
+});
+
+describe("legacy career save migration", () => {
+  const legacy = (ranked, comparisons = 0) => ({
+    careers: ["a", "b", "c"],
+    ranked,
+    candidateIndex: ranked.length || 2,
+    insertion: ranked.length ? { low: 0, high: ranked.length, mid: 1 } : null,
+    comparisons,
+    isComplete: false,
+    currentPair: ranked.length ? ["c", "b"] : ["a", "b"],
+  });
+  it("migrates active progress and history without touching storage until saved", () => {
+    const storage = memory();
+    const raw = JSON.stringify({
+      version: 1,
+      session: legacy(["a", "b"], 1),
+      history: [legacy([])],
+    });
+    storage.setItem(SESSION_STORAGE_KEY, raw);
+    const loaded = loadProgress(storage, careers);
+    expect(loaded.session.comparisons).toBe(1);
+    expect(loaded.session.baseRelations).toEqual([["a", "b"]]);
+    expect(loaded.history).toHaveLength(1);
+    expect(storage.getItem(SESSION_STORAGE_KEY)).toBe(raw);
+    saveProgress(storage, loaded.session, loaded.history);
+    expect(JSON.parse(storage.getItem(SESSION_STORAGE_KEY)).version).toBe(2);
+    expect(loadProgress(storage, careers)).toEqual(loaded);
+  });
+  it("preserves a completed old ranking exactly", () => {
+    const storage = memory(),
+      order = ["c", "a", "b"];
+    storage.setItem(
+      SESSION_STORAGE_KEY,
+      JSON.stringify({
+        version: 1,
+        history: [],
+        session: {
+          careers: order,
+          ranked: order,
+          candidateIndex: 3,
+          insertion: null,
+          comparisons: 3,
+          isComplete: true,
+          currentPair: null,
+        },
+      }),
+    );
+    const loaded = loadProgress(storage, careers);
+    expect(loaded.session.isComplete).toBe(true);
+    expect(loaded.session.ranked.map((c) => c.id)).toEqual(order);
+  });
+  it("rejects an invalid legacy insertion window", () => {
+    const storage = memory(),
+      s = legacy(["a", "b"], 1);
+    s.insertion.mid = 99;
+    storage.setItem(
+      SESSION_STORAGE_KEY,
+      JSON.stringify({ version: 1, session: s, history: [] }),
+    );
+    expect(loadProgress(storage, careers)).toBeNull();
   });
 });

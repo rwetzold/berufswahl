@@ -6,6 +6,10 @@
 
 Für Kinder ab etwa zehn Jahren: Kurzbeschreibungen, typische Tätigkeiten, Arbeitsumfelder, Tagesabläufe, Ausbildungswege und ungefährliche Entdeckeraufgaben. Informationen bleiben auch in der vollständigen Rangliste erreichbar. Rückgängig, Neustart mit Bestätigung und lokales Speichern sind enthalten.
 
+Bei einem neuen Durchlauf zeigen die ersten 30 Vergleiche alle 60 Berufe jeweils einmal. Danach werden bevorzugt zwei andere Karten gewählt. Wiederholungen sind nur noch für die genauere Rangfolge nötig; bereits direkt oder indirekt geklärte Beziehungen werden nicht erneut abgefragt. Die Zwischenliste ist ausdrücklich vorläufig. Die Anzahl kennengelernter Berufe und der Fortschritt der Sortierung sind getrennt: Der Balken zeigt den Anteil bereits geklärter Reihenfolgebeziehungen.
+
+Der Algorithmus speichert persönliche Präferenzen als gerichtete Beziehungen und berücksichtigt ihre transitiven Folgen. Bei der Paarwahl gelten in dieser Reihenfolge: ungesehene Berufe, Kartenwechsel gegenüber dem letzten Vergleich, erwarteter Informationsgewinn, seltenere bisherige Anzeige. Bei Gleichstand entscheidet die zu Beginn zufällig gemischte Reihenfolge. Bestehende Ranglisten aus dem früheren Einfügeverfahren werden mit ihren bekannten Reihenfolgen, noch offenen Einfügegrenzen und der Rückgängig-Historie übernommen.
+
 ## Lokal starten
 
 Node.js 24:
@@ -55,8 +59,8 @@ Bilddateien: `public/images/`. Datum, Werkzeug und vollständige Prompts: `docs/
 
 ## Pflege und Architektur
 
-- `src/ranking.js`, `src/undo.js`, `src/shuffle.js`: übernommener Vergleichsmechanismus mit berufsbezogenen Namen.
-- `src/persistence.js`: versionierter Speicherschlüssel `berufswahl-careers-v1`; alte Berufswahl-Beispieldaten und Eurovision-Einträge werden weder gelesen noch gelöscht.
+- `src/ranking.js`, `src/undo.js`, `src/shuffle.js`: abwechslungsreiche Paarwahl, Reihenfolgeberechnung, Rückgängig und zufälliger Start.
+- `src/persistence.js`: Speicherschlüssel `berufswahl-careers-v1`, Datenformat Version 2 mit Migration von Version 1; alte Berufswahl-Beispieldaten und Eurovision-Einträge werden weder gelesen noch gelöscht.
 - `src/metrics.js`: feste Skalen und Erläuterungen.
 - `src/main.js`, `src/styles.css`: responsive Oberfläche.
 - `tests/`: Ranking, Rückgängig, Persistenz, Datenvollständigkeit und Skalengrenzen.

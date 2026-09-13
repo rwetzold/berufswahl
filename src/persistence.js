@@ -1,10 +1,11 @@
+import { restoreRankingSession, migrateLegacySession } from "./ranking.js";
 export const SESSION_STORAGE_KEY = "berufswahl-careers-v1";
 export function saveProgress(storage, session, history) {
   try {
     storage.setItem(
       SESSION_STORAGE_KEY,
       JSON.stringify({
-        version: 1,
+        version: 2,
         session: serialize(session),
         history: history.map(serialize),
       }),
@@ -17,24 +18,56 @@ export function saveProgress(storage, session, history) {
 export function loadProgress(storage, available) {
   try {
     const data = JSON.parse(storage.getItem(SESSION_STORAGE_KEY));
-    if (data?.version !== 1 || !Array.isArray(data.history)) return null;
-    const session = deserialize(data.session, available);
-    const history = data.history.map((s) => deserialize(s, available));
-    if (!session || history.some((s) => !s)) return null;
-    return { session, history };
+    if (![1, 2].includes(data?.version) || !Array.isArray(data.history))
+      return null;
+    const read =
+      data.version === 1
+        ? (raw) => {
+            const s = deserializeLegacy(raw, available);
+            return s ? migrateLegacySession(s) : null;
+          }
+        : (raw) => deserialize(raw, available);
+    const session = read(data.session),
+      history = data.history.map(read);
+    return session && history.every(Boolean) ? { session, history } : null;
   } catch {
     return null;
   }
 }
 function serialize(s) {
   return {
-    ...s,
     careers: s.careers.map((c) => c.id),
-    ranked: s.ranked.map((c) => c.id),
-    currentPair: s.currentPair?.map((c) => c.id) ?? null,
+    baseRelations: s.baseRelations,
+    baseSeen: s.baseSeen,
+    baseComparisons: s.baseComparisons,
+    decisions: s.decisions,
   };
 }
-function deserialize(s, available) {
+function deserialize(raw, available) {
+  const map = new Map(available.map((c) => [c.id, c]));
+  if (
+    !raw ||
+    !Array.isArray(raw.careers) ||
+    raw.careers.length !== available.length ||
+    new Set(raw.careers).size !== available.length ||
+    raw.careers.some((id) => !map.has(id))
+  )
+    return null;
+  if (
+    !Array.isArray(raw.baseRelations) ||
+    !Array.isArray(raw.baseSeen) ||
+    !Array.isArray(raw.decisions) ||
+    !Number.isInteger(raw.baseComparisons)
+  )
+    return null;
+  return restoreRankingSession(
+    raw.careers.map((id) => map.get(id)),
+    raw,
+  );
+}
+
+// Reader for the previous insertion-based save format.
+function deserializeLegacy(s, available) {
   if (!s || !Array.isArray(s.careers) || !Array.isArray(s.ranked)) return null;
   const map = new Map(available.map((c) => [c.id, c]));
   const valid = (ids) =>
